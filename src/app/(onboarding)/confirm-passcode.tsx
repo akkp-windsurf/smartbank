@@ -18,7 +18,7 @@ export default function Page() {
 
   return (
     <View className="flex-1 bg-neutral-50 pb-7 pt-1">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center">
           <Pressable
             className="absolute left-0 top-0 h-11 w-11 items-center justify-center"
@@ -28,11 +28,11 @@ export default function Page() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             Confirm passcode
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
-            You’ll be able to log in to SmartBank using the following passcode.
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
+            You'll be able to log in to SmartBank using the following passcode.
           </Text>
           <View className="flex-1  pt-16">
             <PinInput code={passcode} setCode={setPasscode} />

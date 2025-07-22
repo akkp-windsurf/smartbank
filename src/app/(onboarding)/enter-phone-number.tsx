@@ -13,7 +13,7 @@ export default function Page() {
 
   return (
     <View className="flex-1 bg-neutral-50 pb-7 pt-1">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center">
           <Pressable
             className="absolute left-0 top-0 h-11 w-11 items-center justify-center"
@@ -23,45 +23,33 @@ export default function Page() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             What phone number would you like to use?
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
             We will send you a verification code to this number.
           </Text>
           <View className="pb-auto mt-4 flex-row gap-x-1">
             <View
-              className="flex-col rounded-lg border-[1px] border-[#EAEAEA] bg-white px-3.5 py-2"
-              style={{
-                shadowColor: "rgb(168, 175, 182)",
-                shadowRadius: 32,
-                shadowOffset: { width: 0, height: 24 },
-                shadowOpacity: 0.15,
-              }}
+              className="flex-col rounded-lg border border-gray-200 bg-white px-3.5 py-2 shadow-md"
             >
-              <Text className="text-[12px] font-bold text-[#279185]">
+              <Text className="text-xs font-bold text-teal-600">
                 Country
               </Text>
               <View className="space-between mt-1 flex-row">
-                <Text className="text-[16px] font-bold text-primary-800">
+                <Text className="text-base font-bold text-primary-800">
                   🇬🇧+44
                 </Text>
               </View>
             </View>
             <View
-              className="flex-1 flex-col rounded-lg border-[1px] border-[#EAEAEA] bg-white px-3.5 py-2"
-              style={{
-                shadowColor: "rgb(168, 175, 182)",
-                shadowRadius: 32,
-                shadowOffset: { width: 0, height: 24 },
-                shadowOpacity: 0.15,
-              }}
+              className="flex-1 flex-col rounded-lg border border-gray-200 bg-white px-3.5 py-2 shadow-md"
             >
-              <Text className="text-[12px] font-bold text-[#279185]">
+              <Text className="text-xs font-bold text-teal-600">
                 Mobile number
               </Text>
               <TextInput
-                className="mt-1 text-[16px] font-bold text-primary-800"
+                className="mt-1 text-base font-bold text-primary-800"
                 keyboardType="number-pad"
                 dataDetectorTypes="phoneNumber"
                 value={mobileNumber}
@@ -79,7 +67,7 @@ export default function Page() {
             )}
             onPress={() => router.push("/enter-one-time-password")}
           >
-            <Text className="text-[16px] font-bold text-white">Continue</Text>
+            <Text className="text-base font-bold text-white">Continue</Text>
           </Pressable>
         </View>
       </SafeAreaView>

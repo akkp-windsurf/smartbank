@@ -41,7 +41,7 @@ const PinInput = ({ code, setCode }: PinInputProps) => {
     return (
       <View
         className={cn(
-          "h-14 w-10 items-center justify-center rounded-[12px] bg-neutral-200",
+          "h-14 w-10 items-center justify-center rounded-xl bg-neutral-200",
           isInputBoxFocused && isValueFocused && "border-2 border-primary-400",
         )}
         key={index}

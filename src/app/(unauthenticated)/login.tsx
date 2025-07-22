@@ -53,10 +53,10 @@ export default function Page() {
   })
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView className="flex-1">
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios" ? "padding" : "height"}
-        style={{ flex: 1 }}
+        className="flex-1"
       >
         <View className="flex-1 pb-7 pt-1">
           <View className="h-11 w-full justify-center">
@@ -68,10 +68,10 @@ export default function Page() {
             </Pressable>
           </View>
           <View className="flex-1 px-4">
-            <Text className="mt-1 text-[34px] font-bold text-[#0C212C]">
+            <Text className="mt-1 text-4xl font-bold text-gray-900">
               Login
             </Text>
-            <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+            <Text className="mt-2 text-xs font-medium text-neutral-600">
               Enter the email address you use to sign in to SmartBank.
             </Text>
             <Controller
@@ -81,7 +81,7 @@ export default function Page() {
               render={({ field: { onChange, value, ref } }) => (
                 <TextInput
                   autoFocus
-                  className="mt-6 h-14 w-full rounded-xl border-[1px] border-[#E7EAEB] px-3.5"
+                  className="mt-6 h-14 w-full rounded-xl border border-gray-200 px-3.5"
                   textContentType="emailAddress"
                   keyboardType="email-address"
                   placeholder="Email address"
@@ -94,7 +94,7 @@ export default function Page() {
               )}
             />
 
-            <Text className="mt-4 w-full text-center text-[13px] font-bold text-primary-500">
+            <Text className="mt-4 w-full text-center text-xs font-bold text-primary-500">
               {"Don't have an account? "}
               <Link href="/sign-up" className="text-primary-400">
                 Sign Up
@@ -112,7 +112,7 @@ export default function Page() {
             >
               <Text
                 className={cn(
-                  "text-[16px] font-bold",
+                  "text-base font-bold",
                   isValid ? "text-white" : "text-neutral-400",
                 )}
               >

@@ -19,11 +19,11 @@ export default function Modal({ params }) {
   const { country: selectedCountry } = useLocalSearchParams()
 
   return (
-    <View className="flex-1 items-center rounded-t-[10px]">
-      <View className="h-[62px] w-full flex-row items-center gap-x-2.5 border-b-[1px] border-[#AEAFAF] px-4 pb-2 pt-4">
-        <View className="h-full flex-1 flex-row items-center rounded-[10px] bg-[#767680]/[.12] px-2">
+    <View className="flex-1 items-center rounded-t-lg">
+      <View className="h-16 w-full flex-row items-center gap-x-2.5 border-b border-gray-400 px-4 pb-2 pt-4">
+        <View className="h-full flex-1 flex-row items-center rounded-lg bg-gray-500/10 px-2">
           <TextInput
-            className="flex-1 text-[17px]"
+            className="flex-1 text-lg"
             placeholder="Search"
             placeholderTextColor="#808085"
             value={searchText}
@@ -31,7 +31,7 @@ export default function Modal({ params }) {
           />
         </View>
         <Text
-          className="text-[17px] text-[#134555]"
+          className="text-lg text-gray-700"
           onPress={() => router.back()}
         >
           Cancel
@@ -39,7 +39,7 @@ export default function Modal({ params }) {
       </View>
       <View className="w-full flex-1 bg-neutral-50">
         <FlatList<string>
-          style={{ paddingHorizontal: 16, paddingTop: 24 }}
+          className="px-4 pt-6"
           data={countries.filter((c) => c.includes(searchText))}
           renderItem={({ item: country }) => (
             <Country
@@ -72,23 +72,15 @@ function Country({
   return (
     <Pressable
       className={cn(
-        "h-24 flex-row items-center gap-x-4 border-[1px] px-4",
+        "h-24 flex-row items-center gap-x-4 border px-4",
         isSelected
-          ? "rounded-lg border-primary-400 bg-white"
-          : "border-transparent border-b-neutral-200 ",
+          ? "rounded-lg border-primary-400 bg-white shadow-lg"
+          : "border-transparent border-b-neutral-200",
       )}
-      style={
-        isSelected && {
-          shadowColor: "rgb(185, 185, 185)",
-          shadowRadius: 40,
-          shadowOffset: { width: 0, height: 20 },
-          shadowOpacity: 0.25,
-        }
-      }
       onPress={onSelect}
     >
-      <View className="h-[66px] w-[66px] rounded-3xl bg-blue-200" />
-      <Text className="text-[16px] font-bold">{country}</Text>
+      <View className="h-16 w-16 rounded-3xl bg-blue-200" />
+      <Text className="text-base font-bold">{country}</Text>
     </Pressable>
   )
 }

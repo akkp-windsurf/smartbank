@@ -14,7 +14,7 @@ export default function Page() {
 
   return (
     <View className="flex-1 bg-neutral-50 pb-7 pt-1">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center">
           <Pressable
             className="absolute left-0 top-0 h-11 w-11 items-center justify-center"
@@ -24,10 +24,10 @@ export default function Page() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             Verify your phone number
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
             Please enter the code we sent to +4472323121
           </Text>
           <View className="flex-1 pt-6">
@@ -43,7 +43,7 @@ export default function Page() {
             )}
             onPress={() => router.navigate("/phone-verified")}
           >
-            <Text className="text-[16px] font-bold text-white">Continue</Text>
+            <Text className="text-base font-bold text-white">Continue</Text>
           </Pressable>
         </View>
       </SafeAreaView>
