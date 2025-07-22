@@ -1,5 +1,4 @@
 import { Ionicons } from "@expo/vector-icons"
-import { LinearGradient } from "expo-linear-gradient"
 import { Link, router } from "expo-router"
 import { Alert, Image, Pressable, Text, View } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
@@ -26,10 +25,7 @@ export default function Page() {
   }
 
   return (
-    <LinearGradient
-      colors={["#265565", "#288FB1", "#265565"]}
-      className="flex-1"
-    >
+    <View className="flex-1 bg-gradient-to-b from-slate-700 via-blue-500 to-slate-700">
       <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center pb-7 pt-1">
           <Pressable
@@ -62,6 +58,6 @@ export default function Page() {
           </Link>
         </View>
       </SafeAreaView>
-    </LinearGradient>
+    </View>
   )
 }

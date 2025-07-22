@@ -1,5 +1,4 @@
 import { Ionicons } from "@expo/vector-icons"
-import { LinearGradient } from "expo-linear-gradient"
 import { router } from "expo-router"
 import { Pressable, Text, View } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
@@ -25,9 +24,8 @@ export default function CreateCardScreen() {
           </Text>
           
           <View className="flex-1 items-center justify-center">
-            <LinearGradient
-              colors={["#265565", "#288FB1"]}
-              className="w-80 h-48 rounded-2xl p-6 mb-8 shadow-lg"
+            <View
+              className="w-80 h-48 rounded-2xl p-6 mb-8 shadow-lg bg-gradient-to-r from-slate-700 to-blue-500"
             >
               <View className="flex-1 justify-between">
                 <View>
@@ -60,7 +58,7 @@ export default function CreateCardScreen() {
                   </View>
                 </View>
               </View>
-            </LinearGradient>
+            </View>
             
             <Text className="text-xs text-neutral-600 text-center leading-5 px-8">
               Your virtual card is ready! You can start using it immediately for online purchases.

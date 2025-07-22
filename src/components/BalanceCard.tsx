@@ -1,4 +1,3 @@
-import { LinearGradient } from "expo-linear-gradient"
 import React from "react"
 import { Text, View } from "react-native"
 
@@ -14,9 +13,8 @@ export default function BalanceCard({
   showBalance = true 
 }: BalanceCardProps) {
   return (
-    <LinearGradient
-      colors={["#265565", "#288FB1"]}
-      className="w-full h-48 rounded-2xl p-6 shadow-lg"
+    <View
+      className="w-full h-48 rounded-2xl p-6 shadow-lg bg-gradient-to-r from-slate-700 to-blue-500"
     >
       <View className="flex-1 justify-between">
         <View>
@@ -42,6 +40,6 @@ export default function BalanceCard({
           </Text>
         </View>
       </View>
-    </LinearGradient>
+    </View>
   )
 }

@@ -1,5 +1,4 @@
 import { Ionicons } from "@expo/vector-icons"
-import { LinearGradient } from "expo-linear-gradient"
 import { router } from "expo-router"
 import React from "react"
 import { Pressable, ScrollView, Text, View } from "react-native"
@@ -44,9 +43,8 @@ export default function CardsScreen() {
           <View className="mt-6">
             {cards.map((card) => (
               <View key={card.id} className="mb-6">
-                <LinearGradient
-                  colors={card.colors}
-                  className="w-full h-48 rounded-2xl p-6 shadow-lg"
+                <View
+                  className="w-full h-48 rounded-2xl p-6 shadow-lg bg-gradient-to-r from-slate-700 to-blue-500"
                 >
                   <View className="flex-1 justify-between">
                     <View className="flex-row items-center justify-between">
@@ -80,7 +78,7 @@ export default function CardsScreen() {
                       </Text>
                     </View>
                   </View>
-                </LinearGradient>
+                </View>
 
                 <View className="flex-row mt-4 space-x-3">
                   <Pressable className="flex-1 h-12 bg-white rounded-xl border border-neutral-200 items-center justify-center">
