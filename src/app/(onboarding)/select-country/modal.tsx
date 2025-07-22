@@ -39,7 +39,7 @@ export default function Modal({ params }) {
       </View>
       <View className="w-full flex-1 bg-neutral-50">
         <FlatList<string>
-          style={{ paddingHorizontal: 16, paddingTop: 24 }}
+          className="px-4 pt-6"
           data={countries.filter((c) => c.includes(searchText))}
           renderItem={({ item: country }) => (
             <Country
@@ -74,17 +74,9 @@ function Country({
       className={cn(
         "h-24 flex-row items-center gap-x-4 border-[1px] px-4",
         isSelected
-          ? "rounded-lg border-primary-400 bg-white"
-          : "border-transparent border-b-neutral-200 ",
+          ? "rounded-lg border-primary-400 bg-white shadow-lg"
+          : "border-transparent border-b-neutral-200",
       )}
-      style={
-        isSelected && {
-          shadowColor: "rgb(185, 185, 185)",
-          shadowRadius: 40,
-          shadowOffset: { width: 0, height: 20 },
-          shadowOpacity: 0.25,
-        }
-      }
       onPress={onSelect}
     >
       <View className="h-[66px] w-[66px] rounded-3xl bg-blue-200" />

@@ -24,7 +24,7 @@ export default function AnalyticsScreen() {
 
   return (
     <View className="flex-1 bg-neutral-50">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center px-4">
           <Pressable
             className="absolute left-4 top-0 h-11 w-11 items-center justify-center"
@@ -79,7 +79,7 @@ export default function AnalyticsScreen() {
                   <View key={index} className="flex-row items-center">
                     <View
                       className="w-4 h-4 rounded-full mr-3"
-                      style={{ backgroundColor: category.color }}
+                      style={{ backgroundColor: category.color } as any}
                     />
                     <View className="flex-1">
                       <View className="flex-row justify-between items-center mb-1">
@@ -96,7 +96,7 @@ export default function AnalyticsScreen() {
                           style={{
                             backgroundColor: category.color,
                             width: `${category.percentage}%`,
-                          }}
+                          } as any}
                         />
                       </View>
                     </View>
@@ -128,11 +128,11 @@ export default function AnalyticsScreen() {
                       <View className="h-2 bg-neutral-200 rounded-full relative">
                         <View
                           className="h-2 bg-green-500 rounded-full absolute"
-                          style={{ width: `${(data.income / 3500) * 100}%` }}
+                          style={{ width: `${(data.income / 3500) * 100}%` } as any}
                         />
                         <View
                           className="h-2 bg-red-500 rounded-full absolute top-0"
-                          style={{ width: `${(data.expenses / 3500) * 100}%`, opacity: 0.7 }}
+                          style={{ width: `${(data.expenses / 3500) * 100}%`, opacity: 0.7 } as any}
                         />
                       </View>
                     </View>

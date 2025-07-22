@@ -7,7 +7,7 @@ import { SafeAreaView } from "react-native-safe-area-context"
 export default function CreateCardScreen() {
   return (
     <View className="flex-1 bg-neutral-50 pb-7 pt-1">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center">
           <Pressable
             className="absolute left-0 top-0 h-11 w-11 items-center justify-center"
@@ -27,13 +27,7 @@ export default function CreateCardScreen() {
           <View className="flex-1 items-center justify-center">
             <LinearGradient
               colors={["#265565", "#288FB1"]}
-              className="w-80 h-48 rounded-2xl p-6 mb-8"
-              style={{
-                shadowColor: "#000",
-                shadowOffset: { width: 0, height: 8 },
-                shadowOpacity: 0.3,
-                shadowRadius: 16,
-              }}
+              className="w-80 h-48 rounded-2xl p-6 mb-8 shadow-lg"
             >
               <View className="flex-1 justify-between">
                 <View>

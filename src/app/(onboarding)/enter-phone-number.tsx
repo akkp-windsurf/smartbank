@@ -13,7 +13,7 @@ export default function Page() {
 
   return (
     <View className="flex-1 bg-neutral-50 pb-7 pt-1">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center">
           <Pressable
             className="absolute left-0 top-0 h-11 w-11 items-center justify-center"
@@ -31,13 +31,7 @@ export default function Page() {
           </Text>
           <View className="pb-auto mt-4 flex-row gap-x-1">
             <View
-              className="flex-col rounded-lg border-[1px] border-[#EAEAEA] bg-white px-3.5 py-2"
-              style={{
-                shadowColor: "rgb(168, 175, 182)",
-                shadowRadius: 32,
-                shadowOffset: { width: 0, height: 24 },
-                shadowOpacity: 0.15,
-              }}
+              className="flex-col rounded-lg border-[1px] border-[#EAEAEA] bg-white px-3.5 py-2 shadow-md"
             >
               <Text className="text-[12px] font-bold text-[#279185]">
                 Country
@@ -49,13 +43,7 @@ export default function Page() {
               </View>
             </View>
             <View
-              className="flex-1 flex-col rounded-lg border-[1px] border-[#EAEAEA] bg-white px-3.5 py-2"
-              style={{
-                shadowColor: "rgb(168, 175, 182)",
-                shadowRadius: 32,
-                shadowOffset: { width: 0, height: 24 },
-                shadowOpacity: 0.15,
-              }}
+              className="flex-1 flex-col rounded-lg border-[1px] border-[#EAEAEA] bg-white px-3.5 py-2 shadow-md"
             >
               <Text className="text-[12px] font-bold text-[#279185]">
                 Mobile number

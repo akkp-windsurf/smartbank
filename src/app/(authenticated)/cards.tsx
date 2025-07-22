@@ -12,7 +12,7 @@ export default function CardsScreen() {
       type: "Virtual Card",
       number: "•••• •••• •••• 1234",
       balance: "$2,847.63",
-      colors: ["#265565", "#288FB1"],
+      colors: ["#265565", "#288FB1"] as const,
       isActive: true,
     },
     {
@@ -20,14 +20,14 @@ export default function CardsScreen() {
       type: "Physical Card",
       number: "•••• •••• •••• 5678",
       balance: "$1,250.00",
-      colors: ["#1F2937", "#374151"],
+      colors: ["#1F2937", "#374151"] as const,
       isActive: false,
     },
   ]
 
   return (
     <View className="flex-1 bg-neutral-50">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center px-4">
           <Pressable
             className="absolute left-4 top-0 h-11 w-11 items-center justify-center"
@@ -46,13 +46,7 @@ export default function CardsScreen() {
               <View key={card.id} className="mb-6">
                 <LinearGradient
                   colors={card.colors}
-                  className="w-full h-48 rounded-2xl p-6"
-                  style={{
-                    shadowColor: "#000",
-                    shadowOffset: { width: 0, height: 8 },
-                    shadowOpacity: 0.3,
-                    shadowRadius: 16,
-                  }}
+                  className="w-full h-48 rounded-2xl p-6 shadow-lg"
                 >
                   <View className="flex-1 justify-between">
                     <View className="flex-row items-center justify-between">

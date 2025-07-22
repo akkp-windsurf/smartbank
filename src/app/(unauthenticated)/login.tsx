@@ -53,10 +53,10 @@ export default function Page() {
   })
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView className="flex-1">
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios" ? "padding" : "height"}
-        style={{ flex: 1 }}
+        className="flex-1"
       >
         <View className="flex-1 pb-7 pt-1">
           <View className="h-11 w-full justify-center">

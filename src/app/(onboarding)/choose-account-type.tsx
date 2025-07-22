@@ -7,7 +7,7 @@ import { SafeAreaView } from "react-native-safe-area-context"
 export default function Page() {
   return (
     <View className="flex-1 bg-neutral-50 pb-7 pt-1">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center">
           <Pressable
             className="absolute left-0 top-0 h-11 w-11 items-center justify-center"
@@ -50,13 +50,7 @@ type AccountCardProps = {
 function AccountCard({ image, title, description }: AccountCardProps) {
   return (
     <Pressable
-      className="mt-4 h-24 w-full flex-row items-center gap-x-2.5 rounded-lg border-[1px] border-[#EAEAEA] bg-white px-2"
-      style={{
-        shadowColor: "rgb(168, 175, 182)",
-        shadowRadius: 32,
-        shadowOffset: { width: 0, height: 24 },
-        shadowOpacity: 0.15,
-      }}
+      className="mt-4 h-24 w-full flex-row items-center gap-x-2.5 rounded-lg border-[1px] border-[#EAEAEA] bg-white px-2 shadow-md"
       onPress={() => router.push("/select-country")}
     >
       <Image className="w-14" resizeMode="contain" source={image} />

@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context"
 
 export default function Page() {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView className="flex-1">
       <View className="flex-1 px-4 py-7">
         <View className="flex-1">
           <Text className="text-[13px] font-medium text-neutral-600">

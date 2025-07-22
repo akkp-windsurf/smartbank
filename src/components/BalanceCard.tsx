@@ -16,13 +16,7 @@ export default function BalanceCard({
   return (
     <LinearGradient
       colors={["#265565", "#288FB1"]}
-      className="w-full h-48 rounded-2xl p-6"
-      style={{
-        shadowColor: "#000",
-        shadowOffset: { width: 0, height: 8 },
-        shadowOpacity: 0.3,
-        shadowRadius: 16,
-      }}
+      className="w-full h-48 rounded-2xl p-6 shadow-lg"
     >
       <View className="flex-1 justify-between">
         <View>

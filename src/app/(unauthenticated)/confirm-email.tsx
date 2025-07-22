@@ -11,9 +11,9 @@ export default function Page() {
   return (
     <LinearGradient
       colors={["#265565", "#288FB1", "#265565"]}
-      style={{ flex: 1 }}
+      className="flex-1"
     >
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="flex-1 pb-7 pt-1">
           <View className="h-11 w-full justify-center">
             <Pressable
@@ -25,8 +25,7 @@ export default function Page() {
           </View>
           <View className="flex-1">
             <Image
-              style={{ resizeMode: "cover" }}
-              className="w-full flex-1"
+              className="w-full flex-1 object-cover"
               source={require("@/assets/planes.png")}
             />
           </View>

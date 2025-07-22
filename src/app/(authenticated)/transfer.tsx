@@ -39,7 +39,7 @@ export default function TransferScreen() {
 
   return (
     <View className="flex-1 bg-neutral-50">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <View className="h-11 w-full justify-center px-4">
           <Pressable
             className="absolute left-4 top-0 h-11 w-11 items-center justify-center"

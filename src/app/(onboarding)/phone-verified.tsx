@@ -10,10 +10,10 @@ export default function Page() {
   return (
     <LinearGradient
       colors={["#265565", "#288FB1", "#265565"]}
-      style={{ flex: 1 }}
+      className="flex-1"
     >
       <View className="flex-1 pb-7 pt-1">
-        <SafeAreaView style={{ flex: 1 }}>
+        <SafeAreaView className="flex-1">
           <View className="h-11 w-full justify-center">
             <Pressable
               className="absolute left-0 top-0 h-11 w-11 items-center justify-center"
@@ -24,8 +24,7 @@ export default function Page() {
           </View>
           <View className="flex-1">
             <Image
-              style={{ resizeMode: "contain" }}
-              className="w-full flex-1"
+              className="w-full flex-1 object-contain"
               source={require("@/assets/phone-verified.png")}
             />
           </View>

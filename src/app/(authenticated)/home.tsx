@@ -25,10 +25,10 @@ export default function HomeScreen() {
   }
 
   const transactions = [
-    { id: 1, name: "Coffee Shop", amount: "-$4.50", time: "2 hours ago", type: "expense" },
-    { id: 2, name: "Salary Deposit", amount: "+$2,500.00", time: "Yesterday", type: "income" },
-    { id: 3, name: "Grocery Store", amount: "-$67.32", time: "2 days ago", type: "expense" },
-    { id: 4, name: "Online Transfer", amount: "-$150.00", time: "3 days ago", type: "transfer" },
+    { id: 1, name: "Coffee Shop", amount: "-$4.50", time: "2 hours ago", type: "expense" as const },
+    { id: 2, name: "Salary Deposit", amount: "+$2,500.00", time: "Yesterday", type: "income" as const },
+    { id: 3, name: "Grocery Store", amount: "-$67.32", time: "2 days ago", type: "expense" as const },
+    { id: 4, name: "Online Transfer", amount: "-$150.00", time: "3 days ago", type: "transfer" as const },
   ]
 
   const quickActions = [
@@ -40,7 +40,7 @@ export default function HomeScreen() {
 
   return (
     <View className="flex-1 bg-neutral-50">
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView className="flex-1">
         <ScrollView showsVerticalScrollIndicator={false}>
           <View className="px-4 pt-4">
             <View className="flex-row items-center justify-between mb-6">
