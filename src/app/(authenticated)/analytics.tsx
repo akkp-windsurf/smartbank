@@ -78,8 +78,7 @@ export default function AnalyticsScreen() {
                 {categories.map((category, index) => (
                   <View key={index} className="flex-row items-center">
                     <View
-                      className="w-4 h-4 rounded-full mr-3"
-                      style={{ backgroundColor: category.color } as any}
+                      className="w-4 h-4 rounded-full mr-3 bg-blue-500"
                     />
                     <View className="flex-1">
                       <View className="flex-row justify-between items-center mb-1">
@@ -92,11 +91,8 @@ export default function AnalyticsScreen() {
                       </View>
                       <View className="h-2 bg-neutral-200 rounded-full">
                         <View
-                          className="h-2 rounded-full"
-                          style={{
-                            backgroundColor: category.color,
-                            width: `${category.percentage}%`,
-                          } as any}
+                          className="h-2 rounded-full bg-blue-500"
+                          style={{ width: `${category.percentage}%` }}
                         />
                       </View>
                     </View>
@@ -128,11 +124,11 @@ export default function AnalyticsScreen() {
                       <View className="h-2 bg-neutral-200 rounded-full relative">
                         <View
                           className="h-2 bg-green-500 rounded-full absolute"
-                          style={{ width: `${(data.income / 3500) * 100}%` } as any}
+                          style={{ width: `${(data.income / 3500) * 100}%` }}
                         />
                         <View
-                          className="h-2 bg-red-500 rounded-full absolute top-0"
-                          style={{ width: `${(data.expenses / 3500) * 100}%`, opacity: 0.7 } as any}
+                          className="h-2 bg-red-500 rounded-full absolute top-0 opacity-70"
+                          style={{ width: `${(data.expenses / 3500) * 100}%` }}
                         />
                       </View>
                     </View>
