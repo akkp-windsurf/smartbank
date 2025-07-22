@@ -38,7 +38,7 @@ export default function Page() {
             </Text>
             <Pressable
               className={cn(
-                "mb-4 h-12 w-full items-center justify-center rounded-xl bg-[#E8F569]",
+                "mb-4 h-12 w-full items-center justify-center rounded-xl bg-yellow-300",
               )}
               // TODO: Replace with universal solution. https://github.com/includable/react-native-email-link
               onPress={() => Linking.openURL("googlegmail://")}

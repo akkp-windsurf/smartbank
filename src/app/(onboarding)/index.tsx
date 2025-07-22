@@ -54,7 +54,7 @@ export default function Page() {
             with us.
           </Text>
           <Link href="/choose-account-type" asChild>
-            <Pressable className="mb-4 h-12 w-full items-center justify-center rounded-xl bg-[#E8F569]">
+            <Pressable className="mb-4 h-12 w-full items-center justify-center rounded-xl bg-yellow-300">
               <Text className="text-base font-bold text-[#134555]">
                 Continue
               </Text>

@@ -19,9 +19,9 @@ export default function Modal({ params }) {
   const { country: selectedCountry } = useLocalSearchParams()
 
   return (
-    <View className="flex-1 items-center rounded-t-[10px]">
-      <View className="h-[62px] w-full flex-row items-center gap-x-2.5 border-b-[1px] border-[#AEAFAF] px-4 pb-2 pt-4">
-        <View className="h-full flex-1 flex-row items-center rounded-[10px] bg-[#767680]/[.12] px-2">
+    <View className="flex-1 items-center rounded-t-lg">
+      <View className="h-16 w-full flex-row items-center gap-x-2.5 border-b-[1px] border-[#AEAFAF] px-4 pb-2 pt-4">
+        <View className="h-full flex-1 flex-row items-center rounded-lg bg-[#767680]/[.12] px-2">
           <TextInput
             className="flex-1 text-lg"
             placeholder="Search"
@@ -79,7 +79,7 @@ function Country({
       )}
       onPress={onSelect}
     >
-      <View className="h-[66px] w-[66px] rounded-3xl bg-blue-200" />
+      <View className="h-16 w-16 rounded-3xl bg-blue-200" />
       <Text className="text-base font-bold">{country}</Text>
     </Pressable>
   )
