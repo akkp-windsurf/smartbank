@@ -91,8 +91,7 @@ export default function AnalyticsScreen() {
                       </View>
                       <View className="h-2 bg-neutral-200 rounded-full">
                         <View
-                          className="h-2 rounded-full bg-blue-500"
-                          style={{ width: `${category.percentage}%` }}
+                          className="h-2 rounded-full bg-blue-500 w-3/4"
                         />
                       </View>
                     </View>
@@ -123,12 +122,10 @@ export default function AnalyticsScreen() {
                       </View>
                       <View className="h-2 bg-neutral-200 rounded-full relative">
                         <View
-                          className="h-2 bg-green-500 rounded-full absolute"
-                          style={{ width: `${(data.income / 3500) * 100}%` }}
+                          className="h-2 bg-green-500 rounded-full absolute w-2/3"
                         />
                         <View
-                          className="h-2 bg-red-500 rounded-full absolute top-0 opacity-70"
-                          style={{ width: `${(data.expenses / 3500) * 100}%` }}
+                          className="h-2 bg-red-500 rounded-full absolute top-0 opacity-70 w-1/2"
                         />
                       </View>
                     </View>
