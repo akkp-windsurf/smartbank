@@ -72,7 +72,7 @@ function Country({
   return (
     <Pressable
       className={cn(
-        "h-24 flex-row items-center gap-x-4 border-[1px] px-4",
+        "h-24 flex-row items-center gap-x-4 border px-4",
         isSelected
           ? "rounded-lg border-primary-400 bg-white shadow-lg"
           : "border-transparent border-b-neutral-200",

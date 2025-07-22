@@ -60,7 +60,7 @@ export default function AnalyticsScreen() {
               </View>
 
               <View className="p-4 bg-green-50 rounded-xl border border-green-200">
-                <Text className="text-[14px] font-semibold text-green-800 mb-1">
+                <Text className="text-sm font-semibold text-green-800 mb-1">
                   Net Savings
                 </Text>
                 <Text className="text-[20px] font-bold text-green-800">
@@ -83,10 +83,10 @@ export default function AnalyticsScreen() {
                     />
                     <View className="flex-1">
                       <View className="flex-row justify-between items-center mb-1">
-                        <Text className="text-[14px] font-semibold text-[#0C212C]">
+                        <Text className="text-sm font-semibold text-[#0C212C]">
                           {category.name}
                         </Text>
-                        <Text className="text-[14px] font-bold text-[#0C212C]">
+                        <Text className="text-sm font-bold text-[#0C212C]">
                           {category.amount}
                         </Text>
                       </View>
@@ -113,7 +113,7 @@ export default function AnalyticsScreen() {
               <View className="space-y-3">
                 {monthlyData.map((data, index) => (
                   <View key={index} className="flex-row items-center justify-between">
-                    <Text className="text-[14px] font-semibold text-[#0C212C] w-12">
+                    <Text className="text-sm font-semibold text-[#0C212C] w-12">
                       {data.month}
                     </Text>
                     <View className="flex-1 mx-4">

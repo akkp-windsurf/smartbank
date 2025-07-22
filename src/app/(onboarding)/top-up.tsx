@@ -46,7 +46,7 @@ export default function TopUpScreen() {
               />
             </View>
             
-            <Text className="text-[14px] font-semibold text-[#0C212C] mb-3">
+            <Text className="text-sm font-semibold text-[#0C212C] mb-3">
               Quick Select
             </Text>
             
@@ -57,7 +57,7 @@ export default function TopUpScreen() {
                   className="px-6 py-3 rounded-xl bg-white border border-neutral-200"
                   onPress={() => setAmount(quickAmount.replace("$", ""))}
                 >
-                  <Text className="text-[14px] font-semibold text-primary-500">
+                  <Text className="text-sm font-semibold text-primary-500">
                     {quickAmount}
                   </Text>
                 </Pressable>

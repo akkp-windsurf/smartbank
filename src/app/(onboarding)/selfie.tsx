@@ -43,7 +43,7 @@ export default function SelfieScreen() {
           <View className="flex-1 items-center justify-center">
             <View className="w-64 h-80 bg-neutral-200 rounded-2xl items-center justify-center mb-8 border-2 border-dashed border-neutral-300">
               <Ionicons name="person-outline" size={80} color="#9CA3AF" />
-              <Text className="text-[14px] text-neutral-500 mt-4 text-center">
+              <Text className="text-sm text-neutral-500 mt-4 text-center">
                 Position your face here
               </Text>
             </View>

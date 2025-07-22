@@ -50,7 +50,7 @@ type AccountCardProps = {
 function AccountCard({ image, title, description }: AccountCardProps) {
   return (
     <Pressable
-      className="mt-4 h-24 w-full flex-row items-center gap-x-2.5 rounded-lg border-[1px] border-[#EAEAEA] bg-white px-2 shadow-md"
+      className="mt-4 h-24 w-full flex-row items-center gap-x-2.5 rounded-lg border border-[#EAEAEA] bg-white px-2 shadow-md"
       onPress={() => router.push("/select-country")}
     >
       <Image className="w-14" resizeMode="contain" source={image} />

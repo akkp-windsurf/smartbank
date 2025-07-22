@@ -37,7 +37,7 @@ export default function BalanceCard({
         )}
         
         <View>
-          <Text className="text-white text-[14px] font-mono tracking-wider">
+          <Text className="text-white text-sm font-mono tracking-wider">
             {cardNumber}
           </Text>
         </View>

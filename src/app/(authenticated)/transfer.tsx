@@ -76,7 +76,7 @@ export default function TransferScreen() {
             </Text>
             
             <TextInput
-              className="h-12 w-full px-4 rounded-xl bg-white border border-neutral-200 text-[14px] text-[#0C212C] mb-6"
+              className="h-12 w-full px-4 rounded-xl bg-white border border-neutral-200 text-sm text-[#0C212C] mb-6"
               placeholder="Email or phone number"
               value={recipient}
               onChangeText={setRecipient}
@@ -100,7 +100,7 @@ export default function TransferScreen() {
                     </Text>
                   </View>
                   <View className="flex-1">
-                    <Text className="text-[14px] font-semibold text-[#0C212C]">
+                    <Text className="text-sm font-semibold text-[#0C212C]">
                       {contact.name}
                     </Text>
                     <Text className="text-[12px] text-neutral-600">
@@ -117,7 +117,7 @@ export default function TransferScreen() {
             </Text>
             
             <TextInput
-              className="h-20 w-full px-4 py-3 rounded-xl bg-white border border-neutral-200 text-[14px] text-[#0C212C] mb-8"
+              className="h-20 w-full px-4 py-3 rounded-xl bg-white border border-neutral-200 text-sm text-[#0C212C] mb-8"
               placeholder="Add a note..."
               value={note}
               onChangeText={setNote}
@@ -127,10 +127,10 @@ export default function TransferScreen() {
 
             <View className="p-4 bg-blue-50 rounded-xl border border-blue-200 mb-8">
               <View className="flex-row items-center justify-between">
-                <Text className="text-[14px] font-semibold text-blue-800">
+                <Text className="text-sm font-semibold text-blue-800">
                   Transfer Fee
                 </Text>
-                <Text className="text-[14px] font-bold text-blue-800">
+                <Text className="text-sm font-bold text-blue-800">
                   Free
                 </Text>
               </View>

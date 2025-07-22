@@ -92,7 +92,7 @@ export default function HomeScreen() {
                   Recent Transactions
                 </Text>
                 <Pressable>
-                  <Text className="text-[14px] font-semibold text-primary-500">
+                  <Text className="text-sm font-semibold text-primary-500">
                     See All
                   </Text>
                 </Pressable>

@@ -40,7 +40,7 @@ export default function VerifyIdentityScreen() {
               <View className="flex-row items-center p-4 bg-white rounded-xl border border-neutral-200">
                 <Ionicons name="document-text-outline" size={24} color="#2791B5" />
                 <View className="ml-3 flex-1">
-                  <Text className="text-[14px] font-semibold text-[#0C212C]">
+                  <Text className="text-sm font-semibold text-[#0C212C]">
                     Government ID
                   </Text>
                   <Text className="text-[12px] text-neutral-600">
@@ -52,7 +52,7 @@ export default function VerifyIdentityScreen() {
               <View className="flex-row items-center p-4 bg-white rounded-xl border border-neutral-200">
                 <Ionicons name="camera-outline" size={24} color="#2791B5" />
                 <View className="ml-3 flex-1">
-                  <Text className="text-[14px] font-semibold text-[#0C212C]">
+                  <Text className="text-sm font-semibold text-[#0C212C]">
                     Selfie Verification
                   </Text>
                   <Text className="text-[12px] text-neutral-600">

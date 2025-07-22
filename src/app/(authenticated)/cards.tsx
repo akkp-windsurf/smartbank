@@ -75,7 +75,7 @@ export default function CardsScreen() {
                     </View>
                     
                     <View>
-                      <Text className="text-white text-[14px] font-mono tracking-wider">
+                      <Text className="text-white text-sm font-mono tracking-wider">
                         {card.number}
                       </Text>
                     </View>
@@ -84,12 +84,12 @@ export default function CardsScreen() {
 
                 <View className="flex-row mt-4 space-x-3">
                   <Pressable className="flex-1 h-12 bg-white rounded-xl border border-neutral-200 items-center justify-center">
-                    <Text className="text-[14px] font-semibold text-primary-500">
+                    <Text className="text-sm font-semibold text-primary-500">
                       View Details
                     </Text>
                   </Pressable>
                   <Pressable className="flex-1 h-12 bg-white rounded-xl border border-neutral-200 items-center justify-center">
-                    <Text className="text-[14px] font-semibold text-primary-500">
+                    <Text className="text-sm font-semibold text-primary-500">
                       {card.isActive ? "Freeze Card" : "Activate Card"}
                     </Text>
                   </Pressable>
@@ -99,7 +99,7 @@ export default function CardsScreen() {
 
             <Pressable className="h-16 w-full bg-white rounded-xl border-2 border-dashed border-neutral-300 items-center justify-center mb-8">
               <Ionicons name="add-outline" size={24} color="#9CA3AF" />
-              <Text className="text-[14px] font-semibold text-neutral-500 mt-1">
+              <Text className="text-sm font-semibold text-neutral-500 mt-1">
                 Add New Card
               </Text>
             </Pressable>

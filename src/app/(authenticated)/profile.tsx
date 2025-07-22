@@ -88,14 +88,14 @@ export default function ProfileScreen() {
               <Text className="text-[20px] font-bold text-[#132F38]">
                 John Doe
               </Text>
-              <Text className="text-[14px] text-neutral-600">
+              <Text className="text-sm text-neutral-600">
                 john.doe@example.com
               </Text>
               <Pressable
                 className="mt-3 px-4 py-2 bg-white rounded-lg border border-neutral-200"
                 onPress={() => router.push("/upload-avatar")}
               >
-                <Text className="text-[14px] font-semibold text-primary-500">
+                <Text className="text-sm font-semibold text-primary-500">
                   Edit Profile
                 </Text>
               </Pressable>
@@ -112,7 +112,7 @@ export default function ProfileScreen() {
                     <Ionicons name={option.icon as any} size={20} color="#2791B5" />
                   </View>
                   <View className="flex-1">
-                    <Text className="text-[14px] font-semibold text-[#0C212C]">
+                    <Text className="text-sm font-semibold text-[#0C212C]">
                       {option.title}
                     </Text>
                     <Text className="text-[12px] text-neutral-600">
@@ -125,7 +125,7 @@ export default function ProfileScreen() {
             </View>
 
             <View className="p-4 bg-red-50 rounded-xl border border-red-200 mb-8">
-              <Text className="text-[14px] font-semibold text-red-800 mb-2">
+              <Text className="text-sm font-semibold text-red-800 mb-2">
                 Account Balance
               </Text>
               <Text className="text-[24px] font-bold text-red-800">

@@ -37,7 +37,7 @@ export default function CreateCardScreen() {
                 </View>
                 
                 <View>
-                  <Text className="text-white text-[14px] font-mono tracking-wider">
+                  <Text className="text-white text-sm font-mono tracking-wider">
                     •••• •••• •••• 1234
                   </Text>
                   <View className="flex-row justify-between items-end mt-4">
@@ -45,7 +45,7 @@ export default function CreateCardScreen() {
                       <Text className="text-white/70 text-[10px] uppercase">
                         Card Holder
                       </Text>
-                      <Text className="text-white text-[14px] font-semibold">
+                      <Text className="text-white text-sm font-semibold">
                         Your Name
                       </Text>
                     </View>
@@ -53,7 +53,7 @@ export default function CreateCardScreen() {
                       <Text className="text-white/70 text-[10px] uppercase">
                         Expires
                       </Text>
-                      <Text className="text-white text-[14px] font-semibold">
+                      <Text className="text-white text-sm font-semibold">
                         12/28
                       </Text>
                     </View>

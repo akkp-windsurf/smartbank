@@ -36,7 +36,7 @@ export default function Page() {
           </Text>
           <View className="flex-1">
             <Pressable
-              className="mt-4 h-14 w-full flex-row items-center rounded-lg border-[1px] border-[#EAEAEA] bg-white px-3.5 shadow-md"
+              className="mt-4 h-14 w-full flex-row items-center rounded-lg border border-[#EAEAEA] bg-white px-3.5 shadow-md"
               onPress={() =>
                 router.push({
                   pathname: "/select-country/modal",

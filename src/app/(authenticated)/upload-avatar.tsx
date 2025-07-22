@@ -63,7 +63,7 @@ export default function UploadAvatarScreen() {
               Update Profile Photo
             </Text>
             
-            <Text className="text-[14px] text-neutral-600 text-center leading-5 px-8 mb-12">
+            <Text className="text-sm text-neutral-600 text-center leading-5 px-8 mb-12">
               Choose a photo that represents you. This will be visible to other SmartBank users when you send or receive money.
             </Text>
             

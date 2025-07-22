@@ -92,7 +92,7 @@ export default function ExchangeScreen() {
                   />
                 </View>
                 <View className="w-20 h-12 bg-neutral-100 rounded-xl items-center justify-center">
-                  <Text className="text-[14px] font-bold text-[#0C212C]">
+                  <Text className="text-sm font-bold text-[#0C212C]">
                     {fromCurrency}
                   </Text>
                 </View>
@@ -120,7 +120,7 @@ export default function ExchangeScreen() {
                   </View>
                 </View>
                 <View className="w-20 h-12 bg-neutral-100 rounded-xl items-center justify-center">
-                  <Text className="text-[14px] font-bold text-[#0C212C]">
+                  <Text className="text-sm font-bold text-[#0C212C]">
                     {toCurrency}
                   </Text>
                 </View>
@@ -129,10 +129,10 @@ export default function ExchangeScreen() {
 
             <View className="p-4 bg-green-50 rounded-xl border border-green-200 mb-6">
               <View className="flex-row items-center justify-between mb-2">
-                <Text className="text-[14px] font-semibold text-green-800">
+                <Text className="text-sm font-semibold text-green-800">
                   Exchange Rate
                 </Text>
-                <Text className="text-[14px] font-bold text-green-800">
+                <Text className="text-sm font-bold text-green-800">
                   1 {fromCurrency} = {exchangeRate} {toCurrency}
                 </Text>
               </View>
@@ -163,14 +163,14 @@ export default function ExchangeScreen() {
                     </Text>
                   </View>
                   <View className="flex-1">
-                    <Text className="text-[14px] font-semibold text-[#0C212C]">
+                    <Text className="text-sm font-semibold text-[#0C212C]">
                       {currency.name}
                     </Text>
                     <Text className="text-[12px] text-neutral-600">
                       {currency.code}
                     </Text>
                   </View>
-                  <Text className="text-[14px] font-bold text-primary-500">
+                  <Text className="text-sm font-bold text-primary-500">
                     {currency.code === "USD" ? "1.00" : exchangeRate.toFixed(2)}
                   </Text>
                 </Pressable>
