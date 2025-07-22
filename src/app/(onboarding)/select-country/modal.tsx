@@ -80,7 +80,7 @@ function Country({
       onPress={onSelect}
     >
       <View className="h-[66px] w-[66px] rounded-3xl bg-blue-200" />
-      <Text className="text-[16px] font-bold">{country}</Text>
+      <Text className="text-base font-bold">{country}</Text>
     </Pressable>
   )
 }

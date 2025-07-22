@@ -31,7 +31,7 @@ export default function Page() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
             What is your country of primary residence?
           </Text>
           <View className="flex-1">
@@ -48,7 +48,7 @@ export default function Page() {
                 <Text className="text-[12px] font-bold text-[#279185]">
                   Country
                 </Text>
-                <Text className="mt-1 text-[16px] font-bold text-black">
+                <Text className="mt-1 text-base font-bold text-black">
                   {selectedCountry}
                 </Text>
               </View>
@@ -62,7 +62,7 @@ export default function Page() {
             )}
             onPress={() => router.push("/enter-phone-number")}
           >
-            <Text className="text-[16px] font-bold text-white">Continue</Text>
+            <Text className="text-base font-bold text-white">Continue</Text>
           </Pressable>
         </View>
       </SafeAreaView>

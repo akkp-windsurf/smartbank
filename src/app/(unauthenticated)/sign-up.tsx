@@ -70,8 +70,8 @@ export default function Page() {
             <Text className="mt-1 text-[34px] font-bold text-[#0C212C]">
               What's your email?
             </Text>
-            <Text className="mt-2 text-[13px] font-medium text-neutral-600">
-              Enter the email address you’d like to use to sign in to SmartBank.
+            <Text className="mt-2 text-xs font-medium text-neutral-600">
+              Enter the email address you'd like to use to sign in to SmartBank.
             </Text>
             <Controller
               control={control}
@@ -92,7 +92,7 @@ export default function Page() {
                 />
               )}
             />
-            <Text className="mt-4 w-full text-center text-[13px] font-bold text-primary-500">
+            <Text className="mt-4 w-full text-center text-xs font-bold text-primary-500">
               {"Have an account? "}
               <Link href="/login" className="text-primary-400">
                 Log in here.
@@ -121,7 +121,7 @@ export default function Page() {
             >
               <Text
                 className={cn(
-                  "text-[16px] font-bold",
+                  "text-base font-bold",
                   isValid ? "text-white" : "text-neutral-400",
                 )}
               >

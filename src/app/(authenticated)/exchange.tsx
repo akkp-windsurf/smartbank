@@ -77,7 +77,7 @@ export default function ExchangeScreen() {
         <ScrollView className="flex-1 px-4" showsVerticalScrollIndicator={false}>
           <View className="mt-6">
             <View className="p-6 bg-white rounded-2xl border border-neutral-200 mb-6">
-              <Text className="text-[16px] font-semibold text-[#0C212C] mb-4">
+              <Text className="text-base font-semibold text-[#0C212C] mb-4">
                 From
               </Text>
               
@@ -107,7 +107,7 @@ export default function ExchangeScreen() {
                 </Pressable>
               </View>
 
-              <Text className="text-[16px] font-semibold text-[#0C212C] mb-4">
+              <Text className="text-base font-semibold text-[#0C212C] mb-4">
                 To
               </Text>
               
@@ -141,7 +141,7 @@ export default function ExchangeScreen() {
               </Text>
             </View>
 
-            <Text className="text-[16px] font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-[#0C212C] mb-4">
               Popular Currencies
             </Text>
             
@@ -158,7 +158,7 @@ export default function ExchangeScreen() {
                   }}
                 >
                   <View className="w-12 h-12 bg-neutral-100 rounded-full items-center justify-center mr-3">
-                    <Text className="text-[16px] font-bold text-[#0C212C]">
+                    <Text className="text-base font-bold text-[#0C212C]">
                       {currency.symbol}
                     </Text>
                   </View>
@@ -184,7 +184,7 @@ export default function ExchangeScreen() {
             className="h-12 w-full items-center justify-center rounded-xl bg-primary-500"
             onPress={handleExchange}
           >
-            <Text className="text-[16px] font-semibold text-white">
+            <Text className="text-base font-semibold text-white">
               Exchange Now
             </Text>
           </Pressable>

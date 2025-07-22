@@ -17,10 +17,10 @@ export default function CreateCardScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
             Create Your Card
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
             Choose your card design and get ready to start spending.
           </Text>
           
@@ -31,7 +31,7 @@ export default function CreateCardScreen() {
             >
               <View className="flex-1 justify-between">
                 <View>
-                  <Text className="text-white text-[16px] font-bold">
+                  <Text className="text-white text-base font-bold">
                     SmartBank
                   </Text>
                 </View>
@@ -62,7 +62,7 @@ export default function CreateCardScreen() {
               </View>
             </LinearGradient>
             
-            <Text className="text-[13px] text-neutral-600 text-center leading-5 px-8">
+            <Text className="text-xs text-neutral-600 text-center leading-5 px-8">
               Your virtual card is ready! You can start using it immediately for online purchases.
             </Text>
           </View>
@@ -72,7 +72,7 @@ export default function CreateCardScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-primary-500"
               onPress={() => router.push("/top-up")}
             >
-              <Text className="text-[16px] font-semibold text-white">
+              <Text className="text-base font-semibold text-white">
                 Create Card
               </Text>
             </Pressable>
@@ -81,7 +81,7 @@ export default function CreateCardScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-neutral-200"
               onPress={() => router.push("/top-up")}
             >
-              <Text className="text-[16px] font-semibold text-primary-500">
+              <Text className="text-base font-semibold text-primary-500">
                 Skip for Now
               </Text>
             </Pressable>

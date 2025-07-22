@@ -21,15 +21,15 @@ export default function TopUpScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
             Top Up Your Account
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
             Add money to your SmartBank account to start spending.
           </Text>
           
           <View className="flex-1 mt-8">
-            <Text className="text-[16px] font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-[#0C212C] mb-4">
               Enter Amount
             </Text>
             
@@ -82,7 +82,7 @@ export default function TopUpScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-primary-500"
               onPress={() => router.replace("/(authenticated)/home")}
             >
-              <Text className="text-[16px] font-semibold text-white">
+              <Text className="text-base font-semibold text-white">
                 Add Money
               </Text>
             </Pressable>
@@ -91,7 +91,7 @@ export default function TopUpScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-neutral-200"
               onPress={() => router.replace("/(authenticated)/home")}
             >
-              <Text className="text-[16px] font-semibold text-primary-500">
+              <Text className="text-base font-semibold text-primary-500">
                 Skip for Now
               </Text>
             </Pressable>

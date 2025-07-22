@@ -38,7 +38,7 @@ export default function Page() {
               )}
               onPress={() => router.push("/legal-information")}
             >
-              <Text className={cn("text-[16px] font-bold text-[#134555]")}>
+              <Text className={cn("text-base font-bold text-[#134555]")}>
                 Continue
               </Text>
             </Pressable>

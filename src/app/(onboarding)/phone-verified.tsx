@@ -32,7 +32,7 @@ export default function Page() {
             <Text className="mt-1 text-center text-[34px] font-bold text-white">
               We’ve verified your phone number
             </Text>
-            <Text className="mb-8 mt-2 text-center text-[13px] font-medium text-neutral-300">
+            <Text className="mb-8 mt-2 text-center text-xs font-medium text-neutral-300">
               We just sent you an email to office@designmesocial.com
             </Text>
             <Pressable
@@ -41,7 +41,7 @@ export default function Page() {
               )}
               onPress={() => router.navigate("/create-passcode")}
             >
-              <Text className={cn("text-[16px] font-bold text-[#134555]")}>
+              <Text className={cn("text-base font-bold text-[#134555]")}>
                 Continue
               </Text>
             </Pressable>

@@ -7,7 +7,7 @@ export default function Page() {
     <SafeAreaView className="flex-1">
       <View className="flex-1 px-4 py-7">
         <View className="flex-1">
-          <Text className="text-[13px] font-medium text-neutral-600">
+          <Text className="text-xs font-medium text-neutral-600">
             Welcome to SmartBank
           </Text>
           <Text className="mt-1.5 text-[34px] font-bold text-[#0C212C]">
@@ -22,14 +22,14 @@ export default function Page() {
         <View>
           <Link href="/sign-up" asChild>
             <Pressable className="h-12 w-full items-center justify-center rounded-xl bg-primary-500">
-              <Text className="text-[16px] font-semibold text-white">
+              <Text className="text-base font-semibold text-white">
                 Sign up
               </Text>
             </Pressable>
           </Link>
           <Link href="/login" asChild>
             <Pressable className="mt-4 h-12 w-full items-center justify-center rounded-xl bg-neutral-200">
-              <Text className="text-[16px] font-semibold text-primary-500">
+              <Text className="text-base font-semibold text-primary-500">
                 Log in
               </Text>
             </Pressable>

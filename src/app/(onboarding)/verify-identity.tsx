@@ -16,10 +16,10 @@ export default function VerifyIdentityScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
             Verify Your Identity
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
             We need to verify your identity to comply with banking regulations.
           </Text>
           
@@ -32,7 +32,7 @@ export default function VerifyIdentityScreen() {
               Identity Verification
             </Text>
             
-            <Text className="text-[13px] text-neutral-600 text-center leading-5 px-8 mb-8">
+            <Text className="text-xs text-neutral-600 text-center leading-5 px-8 mb-8">
               Please have your government-issued ID ready. We'll guide you through a quick verification process.
             </Text>
             
@@ -68,7 +68,7 @@ export default function VerifyIdentityScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-primary-500"
               onPress={() => router.push("/selfie")}
             >
-              <Text className="text-[16px] font-semibold text-white">
+              <Text className="text-base font-semibold text-white">
                 Start Verification
               </Text>
             </Pressable>
@@ -77,7 +77,7 @@ export default function VerifyIdentityScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-neutral-200"
               onPress={() => router.push("/selfie")}
             >
-              <Text className="text-[16px] font-semibold text-primary-500">
+              <Text className="text-base font-semibold text-primary-500">
                 Skip for Now
               </Text>
             </Pressable>

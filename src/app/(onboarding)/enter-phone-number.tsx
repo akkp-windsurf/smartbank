@@ -23,10 +23,10 @@ export default function Page() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
             What phone number would you like to use?
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
             We will send you a verification code to this number.
           </Text>
           <View className="pb-auto mt-4 flex-row gap-x-1">
@@ -37,7 +37,7 @@ export default function Page() {
                 Country
               </Text>
               <View className="space-between mt-1 flex-row">
-                <Text className="text-[16px] font-bold text-primary-800">
+                <Text className="text-base font-bold text-primary-800">
                   🇬🇧+44
                 </Text>
               </View>
@@ -49,7 +49,7 @@ export default function Page() {
                 Mobile number
               </Text>
               <TextInput
-                className="mt-1 text-[16px] font-bold text-primary-800"
+                className="mt-1 text-base font-bold text-primary-800"
                 keyboardType="number-pad"
                 dataDetectorTypes="phoneNumber"
                 value={mobileNumber}
@@ -67,7 +67,7 @@ export default function Page() {
             )}
             onPress={() => router.push("/enter-one-time-password")}
           >
-            <Text className="text-[16px] font-bold text-white">Continue</Text>
+            <Text className="text-base font-bold text-white">Continue</Text>
           </Pressable>
         </View>
       </SafeAreaView>

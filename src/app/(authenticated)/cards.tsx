@@ -50,7 +50,7 @@ export default function CardsScreen() {
                 >
                   <View className="flex-1 justify-between">
                     <View className="flex-row items-center justify-between">
-                      <Text className="text-white text-[16px] font-bold">
+                      <Text className="text-white text-base font-bold">
                         SmartBank
                       </Text>
                       <View className="flex-row items-center">

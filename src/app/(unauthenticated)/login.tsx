@@ -71,7 +71,7 @@ export default function Page() {
             <Text className="mt-1 text-[34px] font-bold text-[#0C212C]">
               Login
             </Text>
-            <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+            <Text className="mt-2 text-xs font-medium text-neutral-600">
               Enter the email address you use to sign in to SmartBank.
             </Text>
             <Controller
@@ -94,7 +94,7 @@ export default function Page() {
               )}
             />
 
-            <Text className="mt-4 w-full text-center text-[13px] font-bold text-primary-500">
+            <Text className="mt-4 w-full text-center text-xs font-bold text-primary-500">
               {"Don't have an account? "}
               <Link href="/sign-up" className="text-primary-400">
                 Sign Up
@@ -112,7 +112,7 @@ export default function Page() {
             >
               <Text
                 className={cn(
-                  "text-[16px] font-bold",
+                  "text-base font-bold",
                   isValid ? "text-white" : "text-neutral-400",
                 )}
               >

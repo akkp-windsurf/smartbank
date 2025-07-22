@@ -20,7 +20,7 @@ export default function BalanceCard({
     >
       <View className="flex-1 justify-between">
         <View>
-          <Text className="text-white text-[16px] font-bold">
+          <Text className="text-white text-base font-bold">
             SmartBank
           </Text>
         </View>

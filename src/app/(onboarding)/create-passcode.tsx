@@ -28,10 +28,10 @@ export default function CreatePasscodeScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
             Create passcode
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
             You’ll be able to log in to SmartBank using the following passcode.
           </Text>
           <View className="flex-1  pt-16">

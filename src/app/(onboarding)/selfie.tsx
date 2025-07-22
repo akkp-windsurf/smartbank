@@ -33,10 +33,10 @@ export default function SelfieScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-[28px] font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
             Take a Selfie
           </Text>
-          <Text className="mt-2 text-[13px] font-medium text-neutral-600">
+          <Text className="mt-2 text-xs font-medium text-neutral-600">
             Position your face in the center of the frame and take a clear photo.
           </Text>
           
@@ -48,7 +48,7 @@ export default function SelfieScreen() {
               </Text>
             </View>
             
-            <Text className="text-[13px] text-neutral-600 text-center leading-5 px-8">
+            <Text className="text-xs text-neutral-600 text-center leading-5 px-8">
               Make sure your face is clearly visible and well-lit. Remove any sunglasses or hats.
             </Text>
           </View>
@@ -58,7 +58,7 @@ export default function SelfieScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-primary-500"
               onPress={handleTakeSelfie}
             >
-              <Text className="text-[16px] font-semibold text-white">
+              <Text className="text-base font-semibold text-white">
                 Take Selfie
               </Text>
             </Pressable>
@@ -67,7 +67,7 @@ export default function SelfieScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-neutral-200"
               onPress={() => router.push("/create-card")}
             >
-              <Text className="text-[16px] font-semibold text-primary-500">
+              <Text className="text-base font-semibold text-primary-500">
                 Skip for Now
               </Text>
             </Pressable>

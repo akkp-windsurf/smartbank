@@ -45,7 +45,7 @@ export default function HomeScreen() {
           <View className="px-4 pt-4">
             <View className="flex-row items-center justify-between mb-6">
               <View>
-                <Text className="text-[13px] font-medium text-neutral-600">
+                <Text className="text-xs font-medium text-neutral-600">
                   Good morning
                 </Text>
                 <Text className="text-[20px] font-bold text-[#132F38]">

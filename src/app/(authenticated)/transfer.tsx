@@ -54,7 +54,7 @@ export default function TransferScreen() {
 
         <ScrollView className="flex-1 px-4" showsVerticalScrollIndicator={false}>
           <View className="mt-6">
-            <Text className="text-[16px] font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-[#0C212C] mb-4">
               Amount
             </Text>
             
@@ -71,7 +71,7 @@ export default function TransferScreen() {
               />
             </View>
 
-            <Text className="text-[16px] font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-[#0C212C] mb-4">
               Send To
             </Text>
             
@@ -83,7 +83,7 @@ export default function TransferScreen() {
               keyboardType="email-address"
             />
 
-            <Text className="text-[16px] font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-[#0C212C] mb-4">
               Recent Contacts
             </Text>
             
@@ -95,7 +95,7 @@ export default function TransferScreen() {
                   onPress={() => setRecipient(contact.email)}
                 >
                   <View className="w-12 h-12 bg-primary-500 rounded-full items-center justify-center mr-3">
-                    <Text className="text-white text-[16px] font-bold">
+                    <Text className="text-white text-base font-bold">
                       {contact.avatar}
                     </Text>
                   </View>
@@ -112,7 +112,7 @@ export default function TransferScreen() {
               ))}
             </View>
 
-            <Text className="text-[16px] font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-[#0C212C] mb-4">
               Note (Optional)
             </Text>
             
@@ -146,7 +146,7 @@ export default function TransferScreen() {
             className="h-12 w-full items-center justify-center rounded-xl bg-primary-500"
             onPress={handleTransfer}
           >
-            <Text className="text-[16px] font-semibold text-white">
+            <Text className="text-base font-semibold text-white">
               Send Money
             </Text>
           </Pressable>

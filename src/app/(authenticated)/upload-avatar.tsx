@@ -76,7 +76,7 @@ export default function UploadAvatarScreen() {
                   <Ionicons name="camera-outline" size={24} color="#2791B5" />
                 </View>
                 <View className="flex-1">
-                  <Text className="text-[16px] font-semibold text-[#0C212C]">
+                  <Text className="text-base font-semibold text-[#0C212C]">
                     Take Photo
                   </Text>
                   <Text className="text-[12px] text-neutral-600">
@@ -94,7 +94,7 @@ export default function UploadAvatarScreen() {
                   <Ionicons name="images-outline" size={24} color="#2791B5" />
                 </View>
                 <View className="flex-1">
-                  <Text className="text-[16px] font-semibold text-[#0C212C]">
+                  <Text className="text-base font-semibold text-[#0C212C]">
                     Choose from Library
                   </Text>
                   <Text className="text-[12px] text-neutral-600">
@@ -111,7 +111,7 @@ export default function UploadAvatarScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-neutral-200"
               onPress={() => router.back()}
             >
-              <Text className="text-[16px] font-semibold text-primary-500">
+              <Text className="text-base font-semibold text-primary-500">
                 Skip for Now
               </Text>
             </Pressable>

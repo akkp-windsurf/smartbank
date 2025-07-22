@@ -140,7 +140,7 @@ export default function ProfileScreen() {
               className="h-12 w-full items-center justify-center rounded-xl bg-red-500 mb-4"
               onPress={handleLogout}
             >
-              <Text className="text-[16px] font-semibold text-white">
+              <Text className="text-base font-semibold text-white">
                 Log Out
               </Text>
             </Pressable>

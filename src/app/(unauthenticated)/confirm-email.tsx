@@ -33,7 +33,7 @@ export default function Page() {
             <Text className="mt-1 text-center text-[34px] font-bold text-white">
               Confirm your email
             </Text>
-            <Text className="mb-8 mt-2 text-center text-[13px] font-medium text-neutral-300">
+            <Text className="mb-8 mt-2 text-center text-xs font-medium text-neutral-300">
               {`We just sent you an email to ${email}`}
             </Text>
             <Pressable
@@ -43,7 +43,7 @@ export default function Page() {
               // TODO: Replace with universal solution. https://github.com/includable/react-native-email-link
               onPress={() => Linking.openURL("googlegmail://")}
             >
-              <Text className={cn("text-[16px] font-bold text-[#134555]")}>
+              <Text className={cn("text-base font-bold text-[#134555]")}>
                 Open email app
               </Text>
             </Pressable>
@@ -52,7 +52,7 @@ export default function Page() {
                 "h-12 w-full items-center justify-center rounded-xl bg-primary-600",
               )}
             >
-              <Text className={cn("text-[16px] font-bold text-white")}>
+              <Text className={cn("text-base font-bold text-white")}>
                 I didn't receive my email
               </Text>
             </Pressable>
