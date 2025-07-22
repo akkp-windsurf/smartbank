@@ -81,7 +81,7 @@ export default function Page() {
               render={({ field: { onChange, value, ref } }) => (
                 <TextInput
                   autoFocus
-                  className="mt-6 h-14 w-full rounded-xl border border-[#E7EAEB] px-3.5"
+                  className="mt-6 h-14 w-full rounded-xl border border-gray-200 px-3.5"
                   textContentType="emailAddress"
                   keyboardType="email-address"
                   placeholder="Email address"

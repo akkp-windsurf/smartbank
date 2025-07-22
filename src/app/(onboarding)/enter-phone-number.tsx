@@ -31,7 +31,7 @@ export default function Page() {
           </Text>
           <View className="pb-auto mt-4 flex-row gap-x-1">
             <View
-              className="flex-col rounded-lg border border-[#EAEAEA] bg-white px-3.5 py-2 shadow-md"
+              className="flex-col rounded-lg border border-gray-200 bg-white px-3.5 py-2 shadow-md"
             >
               <Text className="text-xs font-bold text-[#279185]">
                 Country
@@ -43,7 +43,7 @@ export default function Page() {
               </View>
             </View>
             <View
-              className="flex-1 flex-col rounded-lg border border-[#EAEAEA] bg-white px-3.5 py-2 shadow-md"
+              className="flex-1 flex-col rounded-lg border border-gray-200 bg-white px-3.5 py-2 shadow-md"
             >
               <Text className="text-xs font-bold text-[#279185]">
                 Mobile number
