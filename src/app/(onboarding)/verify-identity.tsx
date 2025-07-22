@@ -16,7 +16,7 @@ export default function VerifyIdentityScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             Verify Your Identity
           </Text>
           <Text className="mt-2 text-xs font-medium text-neutral-600">
@@ -28,7 +28,7 @@ export default function VerifyIdentityScreen() {
               <Ionicons name="shield-checkmark-outline" size={80} color="#2791B5" />
             </View>
             
-            <Text className="text-xl font-bold text-[#132F38] text-center mb-4">
+            <Text className="text-xl font-bold text-gray-800 text-center mb-4">
               Identity Verification
             </Text>
             
@@ -40,7 +40,7 @@ export default function VerifyIdentityScreen() {
               <View className="flex-row items-center p-4 bg-white rounded-xl border border-neutral-200">
                 <Ionicons name="document-text-outline" size={24} color="#2791B5" />
                 <View className="ml-3 flex-1">
-                  <Text className="text-sm font-semibold text-[#0C212C]">
+                  <Text className="text-sm font-semibold text-gray-900">
                     Government ID
                   </Text>
                   <Text className="text-xs text-neutral-600">
@@ -52,7 +52,7 @@ export default function VerifyIdentityScreen() {
               <View className="flex-row items-center p-4 bg-white rounded-xl border border-neutral-200">
                 <Ionicons name="camera-outline" size={24} color="#2791B5" />
                 <View className="ml-3 flex-1">
-                  <Text className="text-sm font-semibold text-[#0C212C]">
+                  <Text className="text-sm font-semibold text-gray-900">
                     Selfie Verification
                   </Text>
                   <Text className="text-xs text-neutral-600">

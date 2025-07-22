@@ -69,7 +69,7 @@ export default function ExchangeScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-lg font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-gray-800">
             Exchange Money
           </Text>
         </View>
@@ -77,14 +77,14 @@ export default function ExchangeScreen() {
         <ScrollView className="flex-1 px-4" showsVerticalScrollIndicator={false}>
           <View className="mt-6">
             <View className="p-6 bg-white rounded-2xl border border-neutral-200 mb-6">
-              <Text className="text-base font-semibold text-[#0C212C] mb-4">
+              <Text className="text-base font-semibold text-gray-900 mb-4">
                 From
               </Text>
               
               <View className="flex-row items-center mb-4">
                 <View className="flex-1 mr-3">
                   <TextInput
-                    className="h-12 w-full px-4 rounded-xl bg-neutral-100 text-lg font-bold text-[#0C212C]"
+                    className="h-12 w-full px-4 rounded-xl bg-neutral-100 text-lg font-bold text-gray-900"
                     placeholder="0.00"
                     value={fromAmount}
                     onChangeText={handleAmountChange}
@@ -92,7 +92,7 @@ export default function ExchangeScreen() {
                   />
                 </View>
                 <View className="w-20 h-12 bg-neutral-100 rounded-xl items-center justify-center">
-                  <Text className="text-sm font-bold text-[#0C212C]">
+                  <Text className="text-sm font-bold text-gray-900">
                     {fromCurrency}
                   </Text>
                 </View>
@@ -107,20 +107,20 @@ export default function ExchangeScreen() {
                 </Pressable>
               </View>
 
-              <Text className="text-base font-semibold text-[#0C212C] mb-4">
+              <Text className="text-base font-semibold text-gray-900 mb-4">
                 To
               </Text>
               
               <View className="flex-row items-center">
                 <View className="flex-1 mr-3">
                   <View className="h-12 w-full px-4 rounded-xl bg-neutral-100 items-center justify-center">
-                    <Text className="text-lg font-bold text-[#0C212C]">
+                    <Text className="text-lg font-bold text-gray-900">
                       {toAmount || "0.00"}
                     </Text>
                   </View>
                 </View>
                 <View className="w-20 h-12 bg-neutral-100 rounded-xl items-center justify-center">
-                  <Text className="text-sm font-bold text-[#0C212C]">
+                  <Text className="text-sm font-bold text-gray-900">
                     {toCurrency}
                   </Text>
                 </View>
@@ -141,7 +141,7 @@ export default function ExchangeScreen() {
               </Text>
             </View>
 
-            <Text className="text-base font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-gray-900 mb-4">
               Popular Currencies
             </Text>
             
@@ -158,12 +158,12 @@ export default function ExchangeScreen() {
                   }}
                 >
                   <View className="w-12 h-12 bg-neutral-100 rounded-full items-center justify-center mr-3">
-                    <Text className="text-base font-bold text-[#0C212C]">
+                    <Text className="text-base font-bold text-gray-900">
                       {currency.symbol}
                     </Text>
                   </View>
                   <View className="flex-1">
-                    <Text className="text-sm font-semibold text-[#0C212C]">
+                    <Text className="text-sm font-semibold text-gray-900">
                       {currency.name}
                     </Text>
                     <Text className="text-xs text-neutral-600">

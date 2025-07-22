@@ -32,7 +32,7 @@ export default function AnalyticsScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-lg font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-gray-800">
             Analytics
           </Text>
         </View>
@@ -40,7 +40,7 @@ export default function AnalyticsScreen() {
         <ScrollView className="flex-1 px-4" showsVerticalScrollIndicator={false}>
           <View className="mt-6">
             <View className="p-6 bg-white rounded-2xl border border-neutral-200 mb-6">
-              <Text className="text-lg font-bold text-[#132F38] mb-4">
+              <Text className="text-lg font-bold text-gray-800 mb-4">
                 This Month Overview
               </Text>
               
@@ -70,7 +70,7 @@ export default function AnalyticsScreen() {
             </View>
 
             <View className="p-6 bg-white rounded-2xl border border-neutral-200 mb-6">
-              <Text className="text-lg font-bold text-[#132F38] mb-4">
+              <Text className="text-lg font-bold text-gray-800 mb-4">
                 Spending by Category
               </Text>
               
@@ -83,10 +83,10 @@ export default function AnalyticsScreen() {
                     />
                     <View className="flex-1">
                       <View className="flex-row justify-between items-center mb-1">
-                        <Text className="text-sm font-semibold text-[#0C212C]">
+                        <Text className="text-sm font-semibold text-gray-900">
                           {category.name}
                         </Text>
-                        <Text className="text-sm font-bold text-[#0C212C]">
+                        <Text className="text-sm font-bold text-gray-900">
                           {category.amount}
                         </Text>
                       </View>
@@ -106,14 +106,14 @@ export default function AnalyticsScreen() {
             </View>
 
             <View className="p-6 bg-white rounded-2xl border border-neutral-200 mb-8">
-              <Text className="text-lg font-bold text-[#132F38] mb-4">
+              <Text className="text-lg font-bold text-gray-800 mb-4">
                 6-Month Trend
               </Text>
               
               <View className="space-y-3">
                 {monthlyData.map((data, index) => (
                   <View key={index} className="flex-row items-center justify-between">
-                    <Text className="text-sm font-semibold text-[#0C212C] w-12">
+                    <Text className="text-sm font-semibold text-gray-900 w-12">
                       {data.month}
                     </Text>
                     <View className="flex-1 mx-4">
@@ -136,7 +136,7 @@ export default function AnalyticsScreen() {
                         />
                       </View>
                     </View>
-                    <Text className="text-xs font-bold text-[#0C212C]">
+                    <Text className="text-xs font-bold text-gray-900">
                       ${data.income - data.expenses}
                     </Text>
                   </View>

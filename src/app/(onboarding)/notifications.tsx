@@ -34,7 +34,7 @@ export default function NotificationsScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             Stay Updated
           </Text>
           <Text className="mt-2 text-xs font-medium text-neutral-600">
@@ -46,7 +46,7 @@ export default function NotificationsScreen() {
               <Ionicons name="notifications-outline" size={80} color="#2791B5" />
             </View>
             
-            <Text className="text-xl font-bold text-[#132F38] text-center mb-4">
+            <Text className="text-xl font-bold text-gray-800 text-center mb-4">
               Enable Notifications
             </Text>
             

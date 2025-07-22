@@ -21,7 +21,7 @@ export default function TopUpScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             Top Up Your Account
           </Text>
           <Text className="mt-2 text-xs font-medium text-neutral-600">
@@ -29,7 +29,7 @@ export default function TopUpScreen() {
           </Text>
           
           <View className="flex-1 mt-8">
-            <Text className="text-base font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-gray-900 mb-4">
               Enter Amount
             </Text>
             
@@ -38,7 +38,7 @@ export default function TopUpScreen() {
                 $
               </Text>
               <TextInput
-                className="h-12 w-full pl-8 pr-4 rounded-xl bg-white border border-neutral-200 text-lg font-semibold text-[#0C212C]"
+                className="h-12 w-full pl-8 pr-4 rounded-xl bg-white border border-neutral-200 text-lg font-semibold text-gray-900"
                 placeholder="0.00"
                 value={amount}
                 onChangeText={setAmount}
@@ -46,7 +46,7 @@ export default function TopUpScreen() {
               />
             </View>
             
-            <Text className="text-sm font-semibold text-[#0C212C] mb-3">
+            <Text className="text-sm font-semibold text-gray-900 mb-3">
               Quick Select
             </Text>
             

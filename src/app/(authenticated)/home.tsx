@@ -48,7 +48,7 @@ export default function HomeScreen() {
                 <Text className="text-xs font-medium text-neutral-600">
                   Good morning
                 </Text>
-                <Text className="text-xl font-bold text-[#132F38]">
+                <Text className="text-xl font-bold text-gray-800">
                   Welcome back!
                 </Text>
               </View>
@@ -65,7 +65,7 @@ export default function HomeScreen() {
             </View>
 
             <View className="mb-6">
-              <Text className="text-lg font-bold text-[#132F38] mb-4">
+              <Text className="text-lg font-bold text-gray-800 mb-4">
                 Quick Actions
               </Text>
               <View className="flex-row justify-between">
@@ -88,7 +88,7 @@ export default function HomeScreen() {
 
             <View>
               <View className="flex-row items-center justify-between mb-4">
-                <Text className="text-lg font-bold text-[#132F38]">
+                <Text className="text-lg font-bold text-gray-800">
                   Recent Transactions
                 </Text>
                 <Pressable>

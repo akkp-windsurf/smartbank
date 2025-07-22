@@ -10,7 +10,7 @@ export default function Page() {
           <Text className="text-xs font-medium text-neutral-600">
             Welcome to SmartBank
           </Text>
-          <Text className="mt-1.5 text-4xl font-bold text-[#0C212C]">
+          <Text className="mt-1.5 text-4xl font-bold text-gray-900">
             Managing your money has never been so easy
           </Text>
           <Image

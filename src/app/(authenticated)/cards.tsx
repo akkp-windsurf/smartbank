@@ -35,7 +35,7 @@ export default function CardsScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-lg font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-gray-800">
             My Cards
           </Text>
         </View>

@@ -71,7 +71,7 @@ export default function ProfileScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-lg font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-gray-800">
             Profile
           </Text>
         </View>
@@ -85,7 +85,7 @@ export default function ProfileScreen() {
               >
                 <Ionicons name="person" size={40} color="white" />
               </Pressable>
-              <Text className="text-xl font-bold text-[#132F38]">
+              <Text className="text-xl font-bold text-gray-800">
                 John Doe
               </Text>
               <Text className="text-sm text-neutral-600">
@@ -112,7 +112,7 @@ export default function ProfileScreen() {
                     <Ionicons name={option.icon as any} size={20} color="#2791B5" />
                   </View>
                   <View className="flex-1">
-                    <Text className="text-sm font-semibold text-[#0C212C]">
+                    <Text className="text-sm font-semibold text-gray-900">
                       {option.title}
                     </Text>
                     <Text className="text-xs text-neutral-600">

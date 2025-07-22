@@ -43,7 +43,7 @@ export default function Page() {
               // TODO: Replace with universal solution. https://github.com/includable/react-native-email-link
               onPress={() => Linking.openURL("googlegmail://")}
             >
-              <Text className={cn("text-base font-bold text-[#134555]")}>
+              <Text className={cn("text-base font-bold text-gray-700")}>
                 Open email app
               </Text>
             </Pressable>

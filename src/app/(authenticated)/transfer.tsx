@@ -47,14 +47,14 @@ export default function TransferScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-lg font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-gray-800">
             Transfer Money
           </Text>
         </View>
 
         <ScrollView className="flex-1 px-4" showsVerticalScrollIndicator={false}>
           <View className="mt-6">
-            <Text className="text-base font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-gray-900 mb-4">
               Amount
             </Text>
             
@@ -63,7 +63,7 @@ export default function TransferScreen() {
                 $
               </Text>
               <TextInput
-                className="h-16 w-full pl-12 pr-4 rounded-xl bg-white border border-neutral-200 text-[24px] font-bold text-[#0C212C]"
+                className="h-16 w-full pl-12 pr-4 rounded-xl bg-white border border-neutral-200 text-2xl font-bold text-gray-900"
                 placeholder="0.00"
                 value={amount}
                 onChangeText={setAmount}
@@ -71,19 +71,19 @@ export default function TransferScreen() {
               />
             </View>
 
-            <Text className="text-base font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-gray-900 mb-4">
               Send To
             </Text>
             
             <TextInput
-              className="h-12 w-full px-4 rounded-xl bg-white border border-neutral-200 text-sm text-[#0C212C] mb-6"
+              className="h-12 w-full px-4 rounded-xl bg-white border border-neutral-200 text-sm text-gray-900 mb-6"
               placeholder="Email or phone number"
               value={recipient}
               onChangeText={setRecipient}
               keyboardType="email-address"
             />
 
-            <Text className="text-base font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-gray-900 mb-4">
               Recent Contacts
             </Text>
             
@@ -100,7 +100,7 @@ export default function TransferScreen() {
                     </Text>
                   </View>
                   <View className="flex-1">
-                    <Text className="text-sm font-semibold text-[#0C212C]">
+                    <Text className="text-sm font-semibold text-gray-900">
                       {contact.name}
                     </Text>
                     <Text className="text-xs text-neutral-600">
@@ -112,12 +112,12 @@ export default function TransferScreen() {
               ))}
             </View>
 
-            <Text className="text-base font-semibold text-[#0C212C] mb-4">
+            <Text className="text-base font-semibold text-gray-900 mb-4">
               Note (Optional)
             </Text>
             
             <TextInput
-              className="h-20 w-full px-4 py-3 rounded-xl bg-white border border-neutral-200 text-sm text-[#0C212C] mb-8"
+              className="h-20 w-full px-4 py-3 rounded-xl bg-white border border-neutral-200 text-sm text-gray-900 mb-8"
               placeholder="Add a note..."
               value={note}
               onChangeText={setNote}

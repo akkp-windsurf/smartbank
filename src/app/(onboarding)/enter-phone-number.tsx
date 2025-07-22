@@ -23,7 +23,7 @@ export default function Page() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             What phone number would you like to use?
           </Text>
           <Text className="mt-2 text-xs font-medium text-neutral-600">
@@ -33,7 +33,7 @@ export default function Page() {
             <View
               className="flex-col rounded-lg border border-gray-200 bg-white px-3.5 py-2 shadow-md"
             >
-              <Text className="text-xs font-bold text-[#279185]">
+              <Text className="text-xs font-bold text-teal-600">
                 Country
               </Text>
               <View className="space-between mt-1 flex-row">
@@ -45,7 +45,7 @@ export default function Page() {
             <View
               className="flex-1 flex-col rounded-lg border border-gray-200 bg-white px-3.5 py-2 shadow-md"
             >
-              <Text className="text-xs font-bold text-[#279185]">
+              <Text className="text-xs font-bold text-teal-600">
                 Mobile number
               </Text>
               <TextInput

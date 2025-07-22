@@ -33,7 +33,7 @@ export default function SelfieScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             Take a Selfie
           </Text>
           <Text className="mt-2 text-xs font-medium text-neutral-600">

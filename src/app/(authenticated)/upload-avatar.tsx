@@ -48,7 +48,7 @@ export default function UploadAvatarScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-lg font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-gray-800">
             Upload Avatar
           </Text>
         </View>
@@ -59,7 +59,7 @@ export default function UploadAvatarScreen() {
               <Ionicons name="person" size={60} color="white" />
             </View>
             
-            <Text className="text-xl font-bold text-[#132F38] text-center mb-4">
+            <Text className="text-xl font-bold text-gray-800 text-center mb-4">
               Update Profile Photo
             </Text>
             
@@ -76,7 +76,7 @@ export default function UploadAvatarScreen() {
                   <Ionicons name="camera-outline" size={24} color="#2791B5" />
                 </View>
                 <View className="flex-1">
-                  <Text className="text-base font-semibold text-[#0C212C]">
+                  <Text className="text-base font-semibold text-gray-900">
                     Take Photo
                   </Text>
                   <Text className="text-xs text-neutral-600">
@@ -94,7 +94,7 @@ export default function UploadAvatarScreen() {
                   <Ionicons name="images-outline" size={24} color="#2791B5" />
                 </View>
                 <View className="flex-1">
-                  <Text className="text-base font-semibold text-[#0C212C]">
+                  <Text className="text-base font-semibold text-gray-900">
                     Choose from Library
                   </Text>
                   <Text className="text-xs text-neutral-600">

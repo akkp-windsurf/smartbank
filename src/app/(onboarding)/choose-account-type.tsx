@@ -17,7 +17,7 @@ export default function Page() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             What kind of account would you like to open?
           </Text>
           <Text className="mt-2 text-xs font-medium text-neutral-600">
@@ -55,7 +55,7 @@ function AccountCard({ image, title, description }: AccountCardProps) {
     >
       <Image className="w-14" resizeMode="contain" source={image} />
       <View className="flex-1 flex-col">
-        <Text className="text-base font-semibold text-[#0C212C]">
+        <Text className="text-base font-semibold text-gray-900">
           {title}
         </Text>
         <Text className="mt-1 text-xs font-medium text-neutral-600">

@@ -16,7 +16,7 @@ export default function LegalInformationScreen() {
           </Pressable>
         </View>
         <View className="flex-1 px-4">
-          <Text className="mt-1 text-3xl font-bold text-[#132F38]">
+          <Text className="mt-1 text-3xl font-bold text-gray-800">
             Legal Information
           </Text>
           <Text className="mt-2 text-xs font-medium text-neutral-600">
@@ -25,7 +25,7 @@ export default function LegalInformationScreen() {
           <ScrollView className="flex-1 mt-6" showsVerticalScrollIndicator={false}>
             <View className="space-y-4">
               <View>
-                <Text className="text-base font-semibold text-[#0C212C] mb-2">
+                <Text className="text-base font-semibold text-gray-900 mb-2">
                   Terms of Service
                 </Text>
                 <Text className="text-xs text-neutral-600 leading-5">
@@ -34,7 +34,7 @@ export default function LegalInformationScreen() {
               </View>
               
               <View>
-                <Text className="text-base font-semibold text-[#0C212C] mb-2">
+                <Text className="text-base font-semibold text-gray-900 mb-2">
                   Privacy Policy
                 </Text>
                 <Text className="text-xs text-neutral-600 leading-5">
@@ -43,7 +43,7 @@ export default function LegalInformationScreen() {
               </View>
               
               <View>
-                <Text className="text-base font-semibold text-[#0C212C] mb-2">
+                <Text className="text-base font-semibold text-gray-900 mb-2">
                   Data Protection
                 </Text>
                 <Text className="text-xs text-neutral-600 leading-5">
@@ -52,7 +52,7 @@ export default function LegalInformationScreen() {
               </View>
               
               <View>
-                <Text className="text-base font-semibold text-[#0C212C] mb-2">
+                <Text className="text-base font-semibold text-gray-900 mb-2">
                   Account Security
                 </Text>
                 <Text className="text-xs text-neutral-600 leading-5">

@@ -42,7 +42,7 @@ export default function TransactionItem({ name, amount, time, type }: Transactio
         />
       </View>
       <View className="flex-1">
-        <Text className="text-sm font-semibold text-[#0C212C]">
+        <Text className="text-sm font-semibold text-gray-900">
           {name}
         </Text>
         <Text className="text-xs text-neutral-600">
@@ -51,7 +51,7 @@ export default function TransactionItem({ name, amount, time, type }: Transactio
       </View>
       <Text
         className={`text-sm font-bold ${
-          type === "income" ? "text-green-600" : "text-[#0C212C]"
+          type === "income" ? "text-green-600" : "text-gray-900"
         }`}
       >
         {amount}
