@@ -15,8 +15,7 @@ export default function Page() {
           </Text>
           <Image
             source={require("@/assets/making-your-money.png")}
-            className="mt-10 w-full flex-1"
-            resizeMode="contain"
+            className="mt-10 w-full flex-1 object-contain"
           />
         </View>
         <View>

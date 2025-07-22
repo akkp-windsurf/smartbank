@@ -53,7 +53,7 @@ function AccountCard({ image, title, description }: AccountCardProps) {
       className="mt-4 h-24 w-full flex-row items-center gap-x-2.5 rounded-lg border border-gray-200 bg-white px-2 shadow-md"
       onPress={() => router.push("/select-country")}
     >
-      <Image className="w-14" resizeMode="contain" source={image} />
+      <Image className="w-14 object-contain" source={image} />
       <View className="flex-1 flex-col">
         <Text className="text-base font-semibold text-gray-900">
           {title}
