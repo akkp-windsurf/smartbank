@@ -47,7 +47,7 @@ export default function TransferScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-[18px] font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-[#132F38]">
             Transfer Money
           </Text>
         </View>
@@ -103,7 +103,7 @@ export default function TransferScreen() {
                     <Text className="text-sm font-semibold text-[#0C212C]">
                       {contact.name}
                     </Text>
-                    <Text className="text-[12px] text-neutral-600">
+                    <Text className="text-xs text-neutral-600">
                       {contact.email}
                     </Text>
                   </View>
@@ -134,7 +134,7 @@ export default function TransferScreen() {
                   Free
                 </Text>
               </View>
-              <Text className="text-[12px] text-blue-700 mt-1">
+              <Text className="text-xs text-blue-700 mt-1">
                 No fees for transfers between SmartBank accounts
               </Text>
             </View>

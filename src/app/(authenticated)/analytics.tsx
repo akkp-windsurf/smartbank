@@ -32,7 +32,7 @@ export default function AnalyticsScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-[18px] font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-[#132F38]">
             Analytics
           </Text>
         </View>
@@ -40,19 +40,19 @@ export default function AnalyticsScreen() {
         <ScrollView className="flex-1 px-4" showsVerticalScrollIndicator={false}>
           <View className="mt-6">
             <View className="p-6 bg-white rounded-2xl border border-neutral-200 mb-6">
-              <Text className="text-[18px] font-bold text-[#132F38] mb-4">
+              <Text className="text-lg font-bold text-[#132F38] mb-4">
                 This Month Overview
               </Text>
               
               <View className="flex-row justify-between mb-6">
                 <View className="flex-1 mr-3">
-                  <Text className="text-[12px] text-neutral-600 mb-1">Income</Text>
+                  <Text className="text-xs text-neutral-600 mb-1">Income</Text>
                   <Text className="text-[24px] font-bold text-green-600">
                     $3,100.00
                   </Text>
                 </View>
                 <View className="flex-1 ml-3">
-                  <Text className="text-[12px] text-neutral-600 mb-1">Expenses</Text>
+                  <Text className="text-xs text-neutral-600 mb-1">Expenses</Text>
                   <Text className="text-[24px] font-bold text-red-600">
                     $2,350.00
                   </Text>
@@ -70,7 +70,7 @@ export default function AnalyticsScreen() {
             </View>
 
             <View className="p-6 bg-white rounded-2xl border border-neutral-200 mb-6">
-              <Text className="text-[18px] font-bold text-[#132F38] mb-4">
+              <Text className="text-lg font-bold text-[#132F38] mb-4">
                 Spending by Category
               </Text>
               
@@ -106,7 +106,7 @@ export default function AnalyticsScreen() {
             </View>
 
             <View className="p-6 bg-white rounded-2xl border border-neutral-200 mb-8">
-              <Text className="text-[18px] font-bold text-[#132F38] mb-4">
+              <Text className="text-lg font-bold text-[#132F38] mb-4">
                 6-Month Trend
               </Text>
               
@@ -118,10 +118,10 @@ export default function AnalyticsScreen() {
                     </Text>
                     <View className="flex-1 mx-4">
                       <View className="flex-row justify-between mb-1">
-                        <Text className="text-[12px] text-green-600">
+                        <Text className="text-xs text-green-600">
                           ${data.income}
                         </Text>
-                        <Text className="text-[12px] text-red-600">
+                        <Text className="text-xs text-red-600">
                           ${data.expenses}
                         </Text>
                       </View>
@@ -136,7 +136,7 @@ export default function AnalyticsScreen() {
                         />
                       </View>
                     </View>
-                    <Text className="text-[12px] font-bold text-[#0C212C]">
+                    <Text className="text-xs font-bold text-[#0C212C]">
                       ${data.income - data.expenses}
                     </Text>
                   </View>

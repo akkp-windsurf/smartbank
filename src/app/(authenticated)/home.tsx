@@ -65,7 +65,7 @@ export default function HomeScreen() {
             </View>
 
             <View className="mb-6">
-              <Text className="text-[18px] font-bold text-[#132F38] mb-4">
+              <Text className="text-lg font-bold text-[#132F38] mb-4">
                 Quick Actions
               </Text>
               <View className="flex-row justify-between">
@@ -78,7 +78,7 @@ export default function HomeScreen() {
                     <View className="w-14 h-14 bg-white rounded-2xl items-center justify-center mb-2 border border-neutral-200">
                       <Ionicons name={action.icon as any} size={24} color="#2791B5" />
                     </View>
-                    <Text className="text-[12px] font-medium text-neutral-600 text-center">
+                    <Text className="text-xs font-medium text-neutral-600 text-center">
                       {action.label}
                     </Text>
                   </Pressable>
@@ -88,7 +88,7 @@ export default function HomeScreen() {
 
             <View>
               <View className="flex-row items-center justify-between mb-4">
-                <Text className="text-[18px] font-bold text-[#132F38]">
+                <Text className="text-lg font-bold text-[#132F38]">
                   Recent Transactions
                 </Text>
                 <Pressable>

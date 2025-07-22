@@ -48,7 +48,7 @@ export default function UploadAvatarScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-[18px] font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-[#132F38]">
             Upload Avatar
           </Text>
         </View>
@@ -79,7 +79,7 @@ export default function UploadAvatarScreen() {
                   <Text className="text-base font-semibold text-[#0C212C]">
                     Take Photo
                   </Text>
-                  <Text className="text-[12px] text-neutral-600">
+                  <Text className="text-xs text-neutral-600">
                     Use your camera to take a new photo
                   </Text>
                 </View>
@@ -97,7 +97,7 @@ export default function UploadAvatarScreen() {
                   <Text className="text-base font-semibold text-[#0C212C]">
                     Choose from Library
                   </Text>
-                  <Text className="text-[12px] text-neutral-600">
+                  <Text className="text-xs text-neutral-600">
                     Select an existing photo from your gallery
                   </Text>
                 </View>

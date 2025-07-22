@@ -27,10 +27,10 @@ export default function BalanceCard({
         
         {showBalance && (
           <View>
-            <Text className="text-white/70 text-[12px] uppercase mb-1">
+            <Text className="text-white/70 text-xs uppercase mb-1">
               Total Balance
             </Text>
-            <Text className="text-white text-[32px] font-bold">
+            <Text className="text-white text-3xl font-bold">
               {balance}
             </Text>
           </View>

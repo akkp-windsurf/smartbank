@@ -69,7 +69,7 @@ export default function ExchangeScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-[18px] font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-[#132F38]">
             Exchange Money
           </Text>
         </View>
@@ -84,7 +84,7 @@ export default function ExchangeScreen() {
               <View className="flex-row items-center mb-4">
                 <View className="flex-1 mr-3">
                   <TextInput
-                    className="h-12 w-full px-4 rounded-xl bg-neutral-100 text-[18px] font-bold text-[#0C212C]"
+                    className="h-12 w-full px-4 rounded-xl bg-neutral-100 text-lg font-bold text-[#0C212C]"
                     placeholder="0.00"
                     value={fromAmount}
                     onChangeText={handleAmountChange}
@@ -114,7 +114,7 @@ export default function ExchangeScreen() {
               <View className="flex-row items-center">
                 <View className="flex-1 mr-3">
                   <View className="h-12 w-full px-4 rounded-xl bg-neutral-100 items-center justify-center">
-                    <Text className="text-[18px] font-bold text-[#0C212C]">
+                    <Text className="text-lg font-bold text-[#0C212C]">
                       {toAmount || "0.00"}
                     </Text>
                   </View>
@@ -136,7 +136,7 @@ export default function ExchangeScreen() {
                   1 {fromCurrency} = {exchangeRate} {toCurrency}
                 </Text>
               </View>
-              <Text className="text-[12px] text-green-700">
+              <Text className="text-xs text-green-700">
                 Live rates updated every minute
               </Text>
             </View>
@@ -166,7 +166,7 @@ export default function ExchangeScreen() {
                     <Text className="text-sm font-semibold text-[#0C212C]">
                       {currency.name}
                     </Text>
-                    <Text className="text-[12px] text-neutral-600">
+                    <Text className="text-xs text-neutral-600">
                       {currency.code}
                     </Text>
                   </View>

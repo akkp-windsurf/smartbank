@@ -45,7 +45,7 @@ export default function TransactionItem({ name, amount, time, type }: Transactio
         <Text className="text-sm font-semibold text-[#0C212C]">
           {name}
         </Text>
-        <Text className="text-[12px] text-neutral-600">
+        <Text className="text-xs text-neutral-600">
           {time}
         </Text>
       </View>

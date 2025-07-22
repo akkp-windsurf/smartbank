@@ -71,7 +71,7 @@ export default function ProfileScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-[18px] font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-[#132F38]">
             Profile
           </Text>
         </View>
@@ -115,7 +115,7 @@ export default function ProfileScreen() {
                     <Text className="text-sm font-semibold text-[#0C212C]">
                       {option.title}
                     </Text>
-                    <Text className="text-[12px] text-neutral-600">
+                    <Text className="text-xs text-neutral-600">
                       {option.subtitle}
                     </Text>
                   </View>
@@ -131,7 +131,7 @@ export default function ProfileScreen() {
               <Text className="text-[24px] font-bold text-red-800">
                 $2,847.63
               </Text>
-              <Text className="text-[12px] text-red-700 mt-1">
+              <Text className="text-xs text-red-700 mt-1">
                 Available balance in your SmartBank account
               </Text>
             </View>
@@ -145,7 +145,7 @@ export default function ProfileScreen() {
               </Text>
             </Pressable>
 
-            <Text className="text-center text-[12px] text-neutral-500 mb-8">
+            <Text className="text-center text-xs text-neutral-500 mb-8">
               SmartBank v1.0.0
             </Text>
           </View>

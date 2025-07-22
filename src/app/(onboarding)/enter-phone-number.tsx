@@ -33,7 +33,7 @@ export default function Page() {
             <View
               className="flex-col rounded-lg border border-[#EAEAEA] bg-white px-3.5 py-2 shadow-md"
             >
-              <Text className="text-[12px] font-bold text-[#279185]">
+              <Text className="text-xs font-bold text-[#279185]">
                 Country
               </Text>
               <View className="space-between mt-1 flex-row">
@@ -45,7 +45,7 @@ export default function Page() {
             <View
               className="flex-1 flex-col rounded-lg border border-[#EAEAEA] bg-white px-3.5 py-2 shadow-md"
             >
-              <Text className="text-[12px] font-bold text-[#279185]">
+              <Text className="text-xs font-bold text-[#279185]">
                 Mobile number
               </Text>
               <TextInput

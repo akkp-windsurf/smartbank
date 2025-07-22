@@ -34,11 +34,11 @@ export default function TopUpScreen() {
             </Text>
             
             <View className="relative mb-6">
-              <Text className="absolute left-4 top-3 text-[18px] font-semibold text-neutral-600 z-10">
+              <Text className="absolute left-4 top-3 text-lg font-semibold text-neutral-600 z-10">
                 $
               </Text>
               <TextInput
-                className="h-12 w-full pl-8 pr-4 rounded-xl bg-white border border-neutral-200 text-[18px] font-semibold text-[#0C212C]"
+                className="h-12 w-full pl-8 pr-4 rounded-xl bg-white border border-neutral-200 text-lg font-semibold text-[#0C212C]"
                 placeholder="0.00"
                 value={amount}
                 onChangeText={setAmount}
@@ -67,11 +67,11 @@ export default function TopUpScreen() {
             <View className="p-4 bg-blue-50 rounded-xl border border-blue-200">
               <View className="flex-row items-center">
                 <Ionicons name="information-circle-outline" size={20} color="#2791B5" />
-                <Text className="ml-2 text-[12px] font-semibold text-blue-800">
+                <Text className="ml-2 text-xs font-semibold text-blue-800">
                   Payment Method
                 </Text>
               </View>
-              <Text className="text-[12px] text-blue-700 mt-1">
+              <Text className="text-xs text-blue-700 mt-1">
                 Funds will be added using your linked bank account or debit card.
               </Text>
             </View>

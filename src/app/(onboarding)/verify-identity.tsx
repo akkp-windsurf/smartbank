@@ -43,7 +43,7 @@ export default function VerifyIdentityScreen() {
                   <Text className="text-sm font-semibold text-[#0C212C]">
                     Government ID
                   </Text>
-                  <Text className="text-[12px] text-neutral-600">
+                  <Text className="text-xs text-neutral-600">
                     Driver's license or passport
                   </Text>
                 </View>
@@ -55,7 +55,7 @@ export default function VerifyIdentityScreen() {
                   <Text className="text-sm font-semibold text-[#0C212C]">
                     Selfie Verification
                   </Text>
-                  <Text className="text-[12px] text-neutral-600">
+                  <Text className="text-xs text-neutral-600">
                     Take a photo of yourself
                   </Text>
                 </View>

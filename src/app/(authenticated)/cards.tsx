@@ -35,7 +35,7 @@ export default function CardsScreen() {
           >
             <Ionicons name="arrow-back" size={24} color="#2791B5" />
           </Pressable>
-          <Text className="text-center text-[18px] font-bold text-[#132F38]">
+          <Text className="text-center text-lg font-bold text-[#132F38]">
             My Cards
           </Text>
         </View>
@@ -59,17 +59,17 @@ export default function CardsScreen() {
                             card.isActive ? "bg-green-400" : "bg-red-400"
                           }`}
                         />
-                        <Text className="text-white text-[12px]">
+                        <Text className="text-white text-xs">
                           {card.isActive ? "Active" : "Inactive"}
                         </Text>
                       </View>
                     </View>
                     
                     <View>
-                      <Text className="text-white/70 text-[12px] uppercase mb-1">
+                      <Text className="text-white/70 text-xs uppercase mb-1">
                         {card.type}
                       </Text>
-                      <Text className="text-white text-[32px] font-bold">
+                      <Text className="text-white text-3xl font-bold">
                         {card.balance}
                       </Text>
                     </View>
