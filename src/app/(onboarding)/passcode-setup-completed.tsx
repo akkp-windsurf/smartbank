@@ -29,7 +29,7 @@ export default function Page() {
             />
           </View>
           <View className="px-4">
-            <Text className="mb-9 mt-1 text-center text-[34px] font-bold text-white">
+            <Text className="mb-9 mt-1 text-center text-4xl font-bold text-white">
               Your passcode has been set up
             </Text>
             <Pressable

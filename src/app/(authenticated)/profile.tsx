@@ -85,7 +85,7 @@ export default function ProfileScreen() {
               >
                 <Ionicons name="person" size={40} color="white" />
               </Pressable>
-              <Text className="text-[20px] font-bold text-[#132F38]">
+              <Text className="text-xl font-bold text-[#132F38]">
                 John Doe
               </Text>
               <Text className="text-sm text-neutral-600">

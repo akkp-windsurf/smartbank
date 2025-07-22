@@ -59,7 +59,7 @@ export default function UploadAvatarScreen() {
               <Ionicons name="person" size={60} color="white" />
             </View>
             
-            <Text className="text-[20px] font-bold text-[#132F38] text-center mb-4">
+            <Text className="text-xl font-bold text-[#132F38] text-center mb-4">
               Update Profile Photo
             </Text>
             

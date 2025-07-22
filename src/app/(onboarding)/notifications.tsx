@@ -46,7 +46,7 @@ export default function NotificationsScreen() {
               <Ionicons name="notifications-outline" size={80} color="#2791B5" />
             </View>
             
-            <Text className="text-[20px] font-bold text-[#132F38] text-center mb-4">
+            <Text className="text-xl font-bold text-[#132F38] text-center mb-4">
               Enable Notifications
             </Text>
             

@@ -63,7 +63,7 @@ export default function AnalyticsScreen() {
                 <Text className="text-sm font-semibold text-green-800 mb-1">
                   Net Savings
                 </Text>
-                <Text className="text-[20px] font-bold text-green-800">
+                <Text className="text-xl font-bold text-green-800">
                   $750.00
                 </Text>
               </View>

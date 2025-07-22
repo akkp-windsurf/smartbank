@@ -67,7 +67,7 @@ export default function Page() {
             </Pressable>
           </View>
           <View className="flex-1 px-4">
-            <Text className="mt-1 text-[34px] font-bold text-[#0C212C]">
+            <Text className="mt-1 text-4xl font-bold text-[#0C212C]">
               What's your email?
             </Text>
             <Text className="mt-2 text-xs font-medium text-neutral-600">

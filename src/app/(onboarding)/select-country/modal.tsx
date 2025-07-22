@@ -23,7 +23,7 @@ export default function Modal({ params }) {
       <View className="h-[62px] w-full flex-row items-center gap-x-2.5 border-b-[1px] border-[#AEAFAF] px-4 pb-2 pt-4">
         <View className="h-full flex-1 flex-row items-center rounded-[10px] bg-[#767680]/[.12] px-2">
           <TextInput
-            className="flex-1 text-[17px]"
+            className="flex-1 text-lg"
             placeholder="Search"
             placeholderTextColor="#808085"
             value={searchText}
@@ -31,7 +31,7 @@ export default function Modal({ params }) {
           />
         </View>
         <Text
-          className="text-[17px] text-[#134555]"
+          className="text-lg text-[#134555]"
           onPress={() => router.back()}
         >
           Cancel

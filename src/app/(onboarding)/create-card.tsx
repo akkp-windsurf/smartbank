@@ -42,7 +42,7 @@ export default function CreateCardScreen() {
                   </Text>
                   <View className="flex-row justify-between items-end mt-4">
                     <View>
-                      <Text className="text-white/70 text-[10px] uppercase">
+                      <Text className="text-white/70 text-xs uppercase">
                         Card Holder
                       </Text>
                       <Text className="text-white text-sm font-semibold">
@@ -50,7 +50,7 @@ export default function CreateCardScreen() {
                       </Text>
                     </View>
                     <View>
-                      <Text className="text-white/70 text-[10px] uppercase">
+                      <Text className="text-white/70 text-xs uppercase">
                         Expires
                       </Text>
                       <Text className="text-white text-sm font-semibold">

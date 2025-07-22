@@ -46,7 +46,7 @@ export default function Page() {
           />
         </View>
         <View className="px-4">
-          <Text className="mt-1 text-center text-[34px] font-bold text-white">
+          <Text className="mt-1 text-center text-4xl font-bold text-white">
             Welcome to SmartBank
           </Text>
           <Text className="mb-8 mt-2 text-center text-xs font-medium text-neutral-300">

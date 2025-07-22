@@ -48,7 +48,7 @@ export default function HomeScreen() {
                 <Text className="text-xs font-medium text-neutral-600">
                   Good morning
                 </Text>
-                <Text className="text-[20px] font-bold text-[#132F38]">
+                <Text className="text-xl font-bold text-[#132F38]">
                   Welcome back!
                 </Text>
               </View>
